@@ -1,0 +1,287 @@
+IncidentDate,State,CityOrCounty,Address,Killed,Injured,Operations
+14-Nov-16,Louisiana,Lafayette,2000 block of Moss Street,0,1,N/A
+14-Nov-16,Kansas,Wichita,3832 East Harry Street,1,0,N/A
+14-Nov-16,Louisiana,Leesville,1020 Fertitta Boulevard,0,0,N/A
+14-Nov-16,Indiana,Indianapolis,East Michigan Street and Pine Street,0,1,N/A
+14-Nov-16,Texas,Houston,9500 Hempstead Road,2,0,N/A
+14-Nov-16,Indiana,Indianapolis,East Washington Street and North Harbison Avenue,0,1,N/A
+14-Nov-16,North Carolina,Shelby,Christopher Road,1,0,N/A
+14-Nov-16,Missouri,Kansas City,37th Street and Prospect Avenue,0,1,N/A
+14-Nov-16,Louisiana,Baton Rouge,4412 Gus Young Avenue,0,1,N/A
+14-Nov-16,Louisiana,Baton Rouge,4941 Byron Ave,0,1,N/A
+14-Nov-16,Louisiana,Baton Rouge,3200 block of Brady Street,0,1,N/A
+14-Nov-16,Illinois,Joliet,200 block of North Hickory Street,0,3,N/A
+14-Nov-16,Illinois,Rockford,2300 block of Pershing Avenue,0,0,N/A
+14-Nov-16,Massachusetts,Springfield,Union St and Hancock St,0,0,N/A
+14-Nov-16,Illinois,Rockford,2300 block of Overdene Avenue,0,0,N/A
+14-Nov-16,Kentucky,Lexington,1111 Centre Pkwy,0,0,N/A
+14-Nov-16,Missouri,Springfield,315 N Park Avenue,2,0,N/A
+14-Nov-16,Massachusetts,Boston,482 Washington St,0,1,N/A
+14-Nov-16,Illinois,Springfield,400 block of South Paul Street,0,1,N/A
+14-Nov-16,Michigan,Detroit,N/A,0,0,N/A
+14-Nov-16,Florida,Estero,17300 Corkscrew Road,1,0,N/A
+14-Nov-16,Kentucky,Daviess (county),Hall School Road,1,0,N/A
+14-Nov-16,Michigan,Flint,Grayson Drive,0,1,N/A
+14-Nov-16,Virginia,Norfolk,2700 block of Granby Street,1,0,N/A
+14-Nov-16,Virginia,Richmond,4700 block of Walmsley Boulevard,0,1,N/A
+14-Nov-16,Virginia,Richmond,N. 31st Street and T Street,0,2,N/A
+14-Nov-16,Pennsylvania,Philadelphia,2908 S Christopher Columbus Blvd,0,1,N/A
+14-Nov-16,Wisconsin,Milwaukee,2000 block S. 13th St,0,1,N/A
+14-Nov-16,Illinois,Chicago (Roseland),9700 block of South Lafayette,1,0,N/A
+14-Nov-16,Illinois,Chicago,2500 block of West 47th Street,1,0,N/A
+14-Nov-16,Louisiana,Shreveport,4100 block of Ester Street,0,1,N/A
+14-Nov-16,Arkansas,Little Rock,West Markham Street and South Shackleford Road,0,0,N/A
+14-Nov-16,Tennessee,Nashville,7135 Centennial Place,1,0,N/A
+14-Nov-16,Texas,Beaumont,4600 Block of Maddox Street,0,0,N/A
+14-Nov-16,Texas,Corpus Christi,Weber and Caravelle Parkway,0,1,N/A
+14-Nov-16,Ohio,Dayton,500 block of Ruth Avenue,0,1,N/A
+13-Nov-16,Washington,Seattle (Capitol Hill),12th Avenue and East Olive Street,0,1,N/A
+13-Nov-16,Connecticut,Bridgeport,Howard Avenue,0,1,N/A
+13-Nov-16,Florida,Jacksonville,6300 block of Tintern Circle West,0,2,N/A
+13-Nov-16,Ohio,Toledo,Bancroft Street and Cherry Street,1,0,N/A
+13-Nov-16,New York,Brooklyn,90 Manhattan Ave,0,3,N/A
+13-Nov-16,Indiana,Indianapolis,1606 E. 44th Street,0,2,N/A
+13-Nov-16,New York,Bellmore (North Bellmore),2046 North Jerusalem Road,0,0,N/A
+13-Nov-16,Tennessee,Knoxville,Jourolman Avenue,1,0,N/A
+13-Nov-16,Nebraska,Omaha,27th and Vane,0,1,N/A
+13-Nov-16,North Carolina,Greensboro,2209 E. Bessemer Ave.,0,1,N/A
+13-Nov-16,Indiana,Fort Wayne,719 Walnut Street,1,0,N/A
+13-Nov-16,Indiana,Indianapolis,3720 North Meridian Street,0,0,N/A
+13-Nov-16,North Carolina,Charlotte,8000 block of Sherington Way,0,1,N/A
+13-Nov-16,Illinois,Milford,107 E. Jones St.,1,0,N/A
+13-Nov-16,Illinois,Rockford,Reid Farm and Villagreen,0,0,N/A
+13-Nov-16,Louisiana,Lafayette,Willow Street and N. Pierce Street,0,1,N/A
+13-Nov-16,California,Hughson,1220 Geer Rd,1,0,N/A
+13-Nov-16,Kentucky,Louisville,800 block of Midway Avenue,0,1,N/A
+13-Nov-16,Michigan,Ypsilanti,212 Stevens Drive,1,0,N/A
+13-Nov-16,New Jersey,Jersey City,Merritt Street,0,2,N/A
+13-Nov-16,Maryland,Baltimore,4200 block of Potter Street,0,1,N/A
+13-Nov-16,District of Columbia,Washington,1700 block of Benning Road NE,0,1,N/A
+13-Nov-16,District of Columbia,Washington,900 Blk of Wahler Pl. SE,0,1,N/A
+13-Nov-16,Michigan,Detroit,Cornwall and Yorkshire,0,1,N/A
+13-Nov-16,California,Sacramento,2300 block of 51st Avenue,1,0,N/A
+13-Nov-16,Michigan,Ypsilanti,Stevens Drive,1,0,N/A
+13-Nov-16,California,Oakland,10000 block of MacArthur Boulevard,1,0,N/A
+13-Nov-16,Vermont,Vershire,Reed Rd,0,1,N/A
+13-Nov-16,California,San Diego,3800 block of Marlborough Avenue,2,3,N/A
+13-Nov-16,Florida,Jacksonville,5105 Cleveland Rd,3,2,N/A
+13-Nov-16,Alabama,Oxford,Smith Street,1,0,N/A
+13-Nov-16,Michigan,Tawas City,800 block of Fir Street,1,1,N/A
+13-Nov-16,Florida,Pensacola,North R Street,0,0,N/A
+13-Nov-16,Florida,Fort Myers,Summerlin Road and Red Cedar Drive,0,0,N/A
+13-Nov-16,Florida,Jacksonville,5675 Barnhill Drive,0,1,N/A
+13-Nov-16,Indiana,Vevay,Ashland Cove Road,0,1,N/A
+13-Nov-16,Florida,Fort Myers,15235 S. Tamiami Trail,2,0,N/A
+13-Nov-16,Virginia,Chesapeake,1900 block of Candlelight Drive,0,1,N/A
+13-Nov-16,Indiana,Indianapolis,5150 West 38th Street,0,1,N/A
+13-Nov-16,Nevada,Las Vegas,5300 block of Ridge Drive,1,0,N/A
+13-Nov-16,Virginia,Richmond,1400 block of Ivymount Road,1,0,N/A
+13-Nov-16,Virginia,Richmond,1300 block of Coalter Street,0,1,N/A
+13-Nov-16,Maryland,Glen Burnie,Route 295 northbound at Route 195,0,1,N/A
+13-Nov-16,Pennsylvania,Harrisburg,100 Hall Manor Pl,0,1,N/A
+13-Nov-16,Virginia,Hampton,I-64 East,0,3,N/A
+13-Nov-16,Ohio,Cleveland,2182 E. 80th St,1,0,N/A
+13-Nov-16,Virginia,Virginia Beach,1949 Lynnhaven Parkway,0,1,N/A
+13-Nov-16,Virginia,Richmond,3600 block of North Avenue,0,1,N/A
+13-Nov-16,Virginia,Richmond,1900 block of Mechanicsville Turnpike,0,1,N/A
+13-Nov-16,Virginia,Richmond,2800 block of Fairfield Avenue,0,1,N/A
+13-Nov-16,Pennsylvania,Philadelphia,1900 E Tioga Street,0,0,N/A
+13-Nov-16,Virginia,Charlottesville,500 block of 11th Street NW,0,1,N/A
+13-Nov-16,Wisconsin,Milwaukee,16th and North Avenue,0,1,N/A
+13-Nov-16,Wisconsin,Milwaukee,64th and Silver Spring,0,1,N/A
+13-Nov-16,Wisconsin,Milwaukee,32nd and Rogers,0,1,N/A
+13-Nov-16,Wisconsin,Milwaukee (Shorewood),Capitol and Woodburn Street,0,0,N/A
+13-Nov-16,Louisiana,New Orleans,Foch Street and Laverne Street,0,1,N/A
+13-Nov-16,New Jersey,Pennsauken,1444 NJ-73,0,3,N/A
+13-Nov-16,Illinois,Chicago,5200 block of South Troy,0,1,N/A
+13-Nov-16,Louisiana,New Iberia,N/A,0,1,N/A
+13-Nov-16,Illinois,Chicago (Englewood),7300 block of South Stewart,0,1,N/A
+13-Nov-16,New Jersey,New Milford,New Bridge Road,0,0,N/A
+13-Nov-16,Rhode Island,Providence,General St,0,0,N/A
+13-Nov-16,Illinois,Chicago,1100 block of East 48th Street,0,1,N/A
+13-Nov-16,Illinois,Chicago,6300 block of South King Drive,0,2,N/A
+13-Nov-16,Illinois,Chicago,3900 block of West Cermak,0,1,N/A
+13-Nov-16,Illinois,Chicago (Englewood),7000 block of South Emerald,0,1,N/A
+13-Nov-16,Texas,San Antonio,700 block of Rexford Drive,0,2,N/A
+13-Nov-16,Florida,Orlando,Conley Street and South Ivey Lane,0,4,N/A
+13-Nov-16,Maryland,Annapolis,100 block of Dock Street,0,0,N/A
+13-Nov-16,Maryland,Annapolis,1400 block of Hunting Wood Road,0,0,N/A
+13-Nov-16,Illinois,Chicago,7200 block of South Phillips Avenue,1,0,N/A
+13-Nov-16,Florida,Lake Worth,600 block of Urquhart Street,0,1,N/A
+13-Nov-16,Illinois,Chicago,3300 block of South Leavitt,0,1,N/A
+13-Nov-16,Illinois,Chicago,3300 block of West Warren Boulevard,0,1,N/A
+13-Nov-16,Tennessee,Memphis,Winchester Road,0,1,N/A
+13-Nov-16,Tennessee,Memphis,Brookgreen Drive,0,1,N/A
+13-Nov-16,Illinois,Chicago,5000 block of West Chicago,0,1,N/A
+13-Nov-16,Illinois,Chicago,24th and Rockwell,0,0,N/A
+13-Nov-16,Illinois,Chicago,5300 block of South Calumet,0,1,N/A
+13-Nov-16,Illinois,Chicago,8300 block of South Green,0,1,N/A
+13-Nov-16,Illinois,Chicago,200 block of North Kenneth,0,1,N/A
+13-Nov-16,Illinois,Chicago,1600 block of North Richmond,0,1,N/A
+13-Nov-16,Illinois,Chicago,4804 W. Madison St.,1,0,N/A
+13-Nov-16,Illinois,Chicago,100 block of East 100th Place,0,1,N/A
+13-Nov-16,Tennessee,Antioch,727 Bell Road,1,0,N/A
+13-Nov-16,Tennessee,Franklin,820 Crescent Centre Dr,0,0,N/A
+13-Nov-16,Tennessee,Nashville,South 7th Street,1,0,N/A
+13-Nov-16,Illinois,Chicago,2428 block of South Wallace,0,1,N/A
+13-Nov-16,Texas,San Antonio,4000 block of Sunrise Creek,0,0,N/A
+13-Nov-16,Texas,San Antonio,Highway 281 Access Road,0,2,N/A
+13-Nov-16,Texas,San Antonio,8000 Midcrown,0,4,N/A
+13-Nov-16,Missouri,Saint Louis,2500 block of North Grand Boulevard,0,1,N/A
+13-Nov-16,Missouri,Cape Girardeau,2115 William Street,0,1,N/A
+13-Nov-16,Ohio,Cincinnati (Lockland),East Wyoming Ave,0,1,N/A
+13-Nov-16,Pennsylvania,Bloomsburg,N/A,0,1,N/A
+13-Nov-16,Oklahoma,Oklahoma City,9401 South Shartel Avenue,1,0,N/A
+13-Nov-16,Ohio,Elyria,200 block of Gates Avenue,0,1,N/A
+13-Nov-16,Pennsylvania,Philadelphia,600 block of South 55th Street,0,1,N/A
+13-Nov-16,Illinois,Elgin,800 block of Morgan Street,1,0,N/A
+13-Nov-16,Illinois,Chicago,3300 block of South Leavitt,0,1,N/A
+13-Nov-16,North Carolina,Morrisville,201 Sutter Gate Lane,0,1,N/A
+13-Nov-16,North Carolina,Raleigh,3004 Dorner Circle,0,3,N/A
+13-Nov-16,New Jersey,Paterson,Fair Street,0,1,N/A
+13-Nov-16,Mississippi,Meridian,1600 block of 20th Street,0,1,N/A
+13-Nov-16,Nevada,Las Vegas,3756-3880 Wynn Rd,0,1,N/A
+13-Nov-16,Georgia,Atlanta (College Park),5299 Old National Highway,1,0,N/A
+13-Nov-16,California,Los Angeles,1420 W Manchester Ave,0,1,N/A
+12-Nov-16,Connecticut,Bridgeport,2500 Park Avenue,0,5,N/A
+12-Nov-16,Colorado,Colorado Springs,2300 block of Lexington Village Lane,0,1,N/A
+12-Nov-16,Ohio,Cleveland,2900 block of East 97th Street,0,1,N/A
+12-Nov-16,Florida,Miami Beach,100 block of 14th Street,0,0,N/A
+12-Nov-16,Ohio,Dayton,5487 West 3rd St,1,0,N/A
+12-Nov-16,Florida,Saint Petersburg (St Petersburg),4670 13th Avenue South,0,1,N/A
+12-Nov-16,California,Sacramento,8600 block of Ardith Drive,1,5,N/A
+12-Nov-16,Kentucky,Louisville,1600 St. Catherine Street,0,1,N/A
+12-Nov-16,Georgia,Atlanta,400 block of Edgewood Avenue,1,1,N/A
+12-Nov-16,Michigan,Detroit,13900 block of Gratiot,0,0,N/A
+12-Nov-16,Oklahoma,Lawton,2803 N.W. 22nd Street,1,0,N/A
+12-Nov-16,New Mexico,Santa Fe,N/A,0,0,N/A
+12-Nov-16,Alaska,Emmonak,N/A,0,0,N/A
+12-Nov-16,Oregon,Portland,Morrison Bridge,0,1,N/A
+12-Nov-16,New York,Guilderland,1 Crossgates Mall Road,0,0,N/A
+12-Nov-16,Rhode Island,Pawtucket,198 Sisson St,1,0,N/A
+12-Nov-16,New Mexico,Espanola,NM State Road 503,0,0,N/A
+12-Nov-16,North Carolina,Roanoke Rapids,100 block of Monroe Street,1,0,N/A
+12-Nov-16,Missouri,Kansas City,21st Street and Cleveland Avenue,1,3,N/A
+12-Nov-16,Massachusetts,New Bedford,75 North 6th St,0,0,N/A
+12-Nov-16,Ohio,Dayton,2300 Salem Avenue,0,1,N/A
+12-Nov-16,North Carolina,Kinston,900 block of West Vernon Ave.,0,1,N/A
+12-Nov-16,Missouri,Kansas City,E. 100th Street and Richmond Avenue,1,3,N/A
+12-Nov-16,Missouri,Kansas City,34th and Harrison,0,1,N/A
+12-Nov-16,Connecticut,Bridgeport,1 William Street,0,1,N/A
+12-Nov-16,Kentucky,Lexington,Alexandria Drive,0,1,N/A
+12-Nov-16,Indiana,Hobart,4400 block of West 49th Avenue,0,0,N/A
+12-Nov-16,Illinois,Chicago,900 block of West 116th Place,0,1,N/A
+12-Nov-16,New Jersey,Jersey City,470 Tonnelle Ave,0,0,N/A
+12-Nov-16,North Dakota,Mandan,N/A,0,0,N/A
+12-Nov-16,Michigan,Grand Rapids,Griggs Street,0,1,N/A
+12-Nov-16,Michigan,Rochester (Rochester Hills),N/A,0,0,N/A
+12-Nov-16,Minnesota,Douglas (county),N/A,0,1,N/A
+12-Nov-16,Connecticut,Hartford,N/A,0,1,N/A
+12-Nov-16,Connecticut,Branford,624 West Main Street,0,1,N/A
+12-Nov-16,Kentucky,Henderson,1500 block of Wright St.,0,1,N/A
+12-Nov-16,California,Oakland,2400 block of 35th Avenue,0,1,N/A
+12-Nov-16,Michigan,Saginaw Township,Brockway,0,0,N/A
+12-Nov-16,Illinois,Chicago,4400 block of West Monroe,0,2,N/A
+12-Nov-16,Illinois,Chicago,1600 block of South Morgan,0,1,N/A
+12-Nov-16,Virginia,Newport News,11112 Jefferson Ave,2,0,N/A
+12-Nov-16,Florida,Loxahatchee,17300 block of 72nd Rd N,0,0,N/A
+12-Nov-16,Florida,Jacksonville,100 West Church Street,0,1,N/A
+12-Nov-16,Indiana,Gary,49th and Massachusetts Streets,1,1,N/A
+12-Nov-16,Florida,Pinellas Park,4398 126th Ave N,1,0,N/A
+12-Nov-16,Arizona,Phoenix,1600 West Sonora Street,0,1,N/A
+12-Nov-16,Arizona,Mesa,417 South Dobson Road,0,1,N/A
+12-Nov-16,Montana,Libby,N/A,1,0,N/A
+12-Nov-16,Texas,San Antonio,830 N New Braunfels Ave,0,1,N/A
+12-Nov-16,California,Oakland,2100 block of International Boulevard,0,1,N/A
+12-Nov-16,California,Oakland,1700 block of Pleasant Valley Avenue,0,1,N/A
+12-Nov-16,Indiana,Indianapolis,3000 block of Dunster Street,1,0,N/A
+12-Nov-16,Virginia,Richmond,500 block of Clarence Street,0,1,N/A
+12-Nov-16,Virginia,Damascus,33231 Whispering Pine Lane,0,0,N/A
+12-Nov-16,Colorado,La Salle,18000 block of County Road 43,1,0,N/A
+12-Nov-16,Illinois,Quincy,500 block of Lind Street,0,0,N/A
+12-Nov-16,Illinois,Peoria,900 block of East Richwoods Boulevard,0,0,N/A
+12-Nov-16,Virginia,Richmond,Catherine Street and Norton Street,0,0,N/A
+12-Nov-16,Mississippi,Jackson,600 block of Tifton Drive,0,1,N/A
+12-Nov-16,Mississippi,Attala (county),Attala Road 4126,2,1,N/A
+12-Nov-16,Virginia,Richmond,4900 block of Orcutt Lane,0,1,N/A
+12-Nov-16,North Carolina,Knightdale,900 block of Ballast Drive,0,1,N/A
+12-Nov-16,California,Riverside,Iowa Avenue and University Avenue,0,2,N/A
+12-Nov-16,Ohio,Warren,200 block of South Leavitt Road,1,0,N/A
+12-Nov-16,North Carolina,Charlotte,2800 block of West Boulevard,1,1,N/A
+12-Nov-16,Illinois,Springfield,1600 block of South First Street,0,2,N/A
+12-Nov-16,California,Long Beach,5400 block of Paramount Blvd. near Candlewood Street,0,2,N/A
+12-Nov-16,Texas,Marshall,800 Block of Elm Street,0,1,N/A
+12-Nov-16,Texas,Longview,Mobberly Ave and Myrle Ave,0,1,N/A
+12-Nov-16,Tennessee,Bradley (county),I-75,0,0,N/A
+12-Nov-16,South Carolina,Longs,Freemont Road,1,2,N/A
+12-Nov-16,Tennessee,Memphis,964 South Cooper Street,0,1,N/A
+12-Nov-16,Missouri,Springfield,3500 South Lone Pine Avenue,0,1,N/A
+12-Nov-16,Pennsylvania,Braddock,1400 Brinton Ave,0,2,N/A
+12-Nov-16,Kentucky,Louisville,700 block of Camp St.,1,0,N/A
+12-Nov-16,Pennsylvania,Philadelphia,400 block of Lindley Street,0,1,N/A
+12-Nov-16,Wisconsin,Milwaukee,Meinecke Avenue and Weil Street,1,0,N/A
+12-Nov-16,New Jersey,Jersey City,Ocean Avenue,0,1,N/A
+12-Nov-16,New Jersey,Jersey City,Clinton Avenue,0,0,N/A
+12-Nov-16,Arkansas,Little Rock,5400 block of Greenwood Acres,0,1,N/A
+12-Nov-16,Arkansas,Little Rock,2601 John Barrow Road,0,1,N/A
+12-Nov-16,Massachusetts,Boston,33 Smith St,0,1,N/A
+12-Nov-16,Massachusetts,Boston,659 Hyde Park Ave,0,1,N/A
+12-Nov-16,Rhode Island,Providence,Morning Star Row and Friendship Street,0,2,N/A
+12-Nov-16,South Carolina,Longs,8100 block of Highway 90,0,2,N/A
+12-Nov-16,South Carolina,Union,200 block of Wilson Road,1,0,N/A
+12-Nov-16,Massachusetts,Springfield,129 Chapin Terrace,0,0,N/A
+12-Nov-16,South Carolina,Aiken,Kellogg Drive,0,0,N/A
+12-Nov-16,Tennessee,Collierville,TN-385,1,0,N/A
+12-Nov-16,Illinois,Chicago,8300 block of South Colfax,0,1,N/A
+12-Nov-16,Alaska,Anchorage,5th and Cordova,1,1,N/A
+12-Nov-16,Illinois,Chicago,3000 block of West Division,0,1,N/A
+12-Nov-16,Illinois,Chicago,12400 block of South Normal,0,2,N/A
+12-Nov-16,Illinois,Chicago,6800 block of South Springfield,1,0,N/A
+12-Nov-16,Georgia,Rome,26 Oreburg Road,0,0,N/A
+12-Nov-16,Illinois,Chicago (Chicago Lawn),2600 block of West 63rd,0,1,N/A
+12-Nov-16,Illinois,Chicago,8700 block of South Racine,0,1,N/A
+12-Nov-16,Illinois,Chicago,4800 block of West Harrison Street,0,1,N/A
+12-Nov-16,Illinois,Chicago (Englewood),5600 block of South May,0,1,N/A
+12-Nov-16,Illinois,Chicago,10200 block of South Eggleston,0,1,N/A
+12-Nov-16,Illinois,Chicago,1800 block of South Komensky,0,1,N/A
+12-Nov-16,Texas,Lubbock,1604 38th Street,0,1,N/A
+12-Nov-16,Texas,Houston,Waldemar Drive,0,1,N/A
+12-Nov-16,Texas,San Antonio,Rosemont at Highlands,0,1,N/A
+12-Nov-16,Massachusetts,Buzzards Bay,199 MacArthur Blvd,0,1,N/A
+12-Nov-16,Ohio,Dayton,900 block of Danner Avenue,0,1,N/A
+12-Nov-16,Missouri,Vienna,12400 block of Highway 63,0,1,N/A
+12-Nov-16,North Carolina,Charlotte,Farm Pond Lane,0,1,N/A
+12-Nov-16,New Jersey,Trenton,1000 Block of South Clinton Ave,0,1,N/A
+12-Nov-16,Missouri,Kansas City,East 53rd Street and South Cottage Avenue,0,1,N/A
+12-Nov-16,Washington,Seattle,4200 Block of Rainier Ave South,0,1,N/A
+12-Nov-16,Arizona,Sahuarita,100 block of East Placita Lago del Encanto,1,0,N/A
+12-Nov-16,Alaska,Thorne Bay,Sandy Beach Road and Thorne Bay Road,0,0,N/A
+12-Nov-16,Texas,Houston,Almeda,0,1,N/A
+12-Nov-16,South Carolina,Summerton,1500 block of Homeward Way,1,0,N/A
+12-Nov-16,South Carolina,Columbia,200 block of Morningside Dr.,2,0,N/A
+12-Nov-16,South Carolina,Longs,8160 Highway 90,0,0,N/A
+12-Nov-16,Louisiana,Shreveport,3400 block of Pleasant Drive,0,1,N/A
+12-Nov-16,Illinois,Chicago,100 block of South California,1,0,N/A
+12-Nov-16,Idaho,Nampa,300 block of 12th Avenue South,0,1,N/A
+12-Nov-16,Pennsylvania,Langhorne,500 block of Hulmeville Road,0,0,N/A
+12-Nov-16,Colorado,Denver,2800 block of North Jackson Street,0,1,N/A
+12-Nov-16,Washington,Seattle (Shoreline),14500 block of Whitman Avenue North,1,0,N/A
+12-Nov-16,Colorado,Grand Junction (Fruitvale),3000 block of Sandpiper Avenue,0,1,N/A
+12-Nov-16,Colorado,Palisade,West 8th Street,0,0,N/A
+12-Nov-16,California,Bakersfield,1300 block of Webster Street,0,2,N/A
+12-Nov-16,California,Bakersfield,1400 block of East 14th Street,0,1,N/A
+12-Nov-16,Arizona,Phoenix,51st Avenue and Indian School Road,0,1,N/A
+12-Nov-16,District of Columbia,Washington,1200 block of W Street NW,0,1,N/A
+11-Nov-16,North Carolina,Goldsboro,400 Benton St.,1,0,N/A
+11-Nov-16,Colorado,Boulder (county),U.S. 36 and McCaslin Boulevard,0,0,N/A
+11-Nov-16,Ohio,Akron,737 Druid Walk,2,0,N/A
+11-Nov-16,Connecticut,Stamford,Ludlowe Street,0,1,N/A
+11-Nov-16,New Jersey,Irvington,300 Block of Myrtle Ave,0,1,N/A
+11-Nov-16,New Jersey,Newark,New Jersey Turnpike,0,1,N/A
+11-Nov-16,New Jersey,Newark,Cedar Street,0,1,N/A
+11-Nov-16,Florida,Jacksonville,8214 Princeton Square Boulevard,1,1,N/A
+11-Nov-16,Florida,Jacksonville,Chaffee Road,0,0,N/A
+11-Nov-16,California,Oakland,9400 block of Dunbar Drive,2,0,N/A
+11-Nov-16,Oklahoma,Tulsa,North Harvard Avenue and East Woodrow Place,0,1,N/A
+11-Nov-16,Georgia,Macon,1633 Woodrow Place,1,0,N/A
+11-Nov-16,Alabama,Birmingham,4300 block of 5th Court,1,0,N/A

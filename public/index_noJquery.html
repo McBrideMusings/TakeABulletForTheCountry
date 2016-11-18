@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Socket.IO Twitter Example</title>
+		<style>
+			#userName   {color: green;}
+			#tweetText  {color: blue;}
+		</style>
+	</head>
+	<body>
+		<h1>Socket.IO Twitter Example</h1>
+		<ul class="tweets"></ul>
+		<script src="http://6310.lmc.gatech.edu:6008/js/socket.io-1.4.5.js"></script>
+		<script>
+			// create a socket connection to the server
+			var socket = io.connect("http://6310.lmc.gatech.edu:6008");
+
+			//create a variable to hold the element we want to append our tweets to.  In this case the UL with the className tweets
+			var tweetList = document.getElementsByClassName("tweets");
+
+			//once all the page has loaded and is ready to run create a function that waits for events emitted from our socket connection
+			window.onload = function () {
+
+				socket.on('tweet', function (data) {
+					//create a listItem to contain the tweet userName
+					var myListItem = document.createElement("LI");
+
+					//create a span to put the text in so we can style it differently from the tweet content if we want to
+					var spanUser = document.createElement("Span");
+					//take the data.user node passed from the socket connection and create a text element for it
+					var myUser = document.createTextNode(data.user + '; ');
+					//append the user Text node to the Span element as a child
+					spanUser.appendChild(myUser);
+					//give the span element an id so we can style it with CSS
+					spanUser.id = "userName";
+
+					//create a text node for the tweet text
+					var myText = document.createTextNode(data.text);
+					//create a Span to contain the tweet text so it can be styled differently from the user text
+					var spanText = document.createElement("Span");
+					//give the span an id for styling with CSS
+					spanText.id = "tweetText"
+					//append the tweet text to the Span element
+					spanText.appendChild(myText);
+
+					//append the Span for the User and the Span for the tweet text to the List Item -->
+					myListItem.appendChild(spanUser)
+					myListItem.appendChild(spanText)
+					//append the listItem to the Unordered list we created above -->
+					tweetList[0].appendChild(myListItem);
+
+				});
+
+				//if you do not want to style the listItems differently based on User and Text you can comment out the version above and uncomment the following version
+
+				// socket.on('tweet', function (data) {
+				// 	var myListItem = document.createElement("LI");
+				// 	var myText= document.createTextNode(data.user + '; ' + data.text);
+				// 	myListItem.appendChild(myText)
+				// 	tweetList[0].appendChild(myListItem);
+				// 	});
+
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "twitter-streaming",
+  "version": "1.0.0",
+  "description": "twitter streaming app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "express": "^4.14.0",
+    "jsonfile": "^2.4.0",
+    "node-open-geocoder": "^1.2.1",
+    "search-google-geocode": "0.0.13",
+    "socket.io": "^1.5.1",
+    "twit": "^2.2.5"
+  }
+}
