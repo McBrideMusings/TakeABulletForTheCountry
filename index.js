@@ -27,17 +27,17 @@ var file = 'gundata.json';
 // var stream = T.stream('statuses/filter', { follow: '1083314617' });
 io.on('connection', function(socket){
   console.log('a user connected');
+	/*
 	io.emit('returndata', {
 			data: file
 		});
-	/*
+		*/
 	jsonfile.readFile(file, function(err, filedone) {
 		io.emit('returndata', {
 			data: filedone
 		});
 		console.log(filedone[0]);
 	});
-	*/
 	socket.on('disconnect', function(){
     console.log('user disconnected');
   });
