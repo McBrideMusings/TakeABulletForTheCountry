@@ -71,14 +71,13 @@ function generateBullet(incidentParsed) { //myCallback calls this function for e
 
     var entity = document.createElement("a-collada-model");
     
-    entity.setAttribute("position", randomPos);
-    entity.setAttribute("rotation", "0 0 0");
+    //entity.setAttribute("position", randomPos);
+    //entity.setAttribute("rotation", "0 0 0");
     entity.setAttribute("collada-model", "#bullet-dae");
     entity.setAttribute("class", "bullet");
-		entity.setAttribute("data-incident", incidentParsed);
+		entity.setAttribute("dataincident", incidentParsed);
 		entity.setAttribute("cursor-listener");
 
-    info.innerHTML += incidentParsed.address;
     document.querySelector("#PutBulletsHere").appendChild(entity);
     /* This line is the one that causes duplicates of every incident to be generated, but still colors the bullets. It's confusing. I wanted to use color to distiguish between bullets that represent fatal and non fatal shootings. Oh well */
     //document.querySelector("#Bullet"+bulletCounter).setAttribute("material", materialSelected); //I don't understand why this doesn't work
@@ -119,8 +118,9 @@ function ParseIncidents() {
 			for (var i = 0; i < tempKilledInjuredTotal; i++) {
 				bulletIncidents.push(incidentParsed);
 			}
-			countLocalInjuries += incidentParsed.injured;
-			countLocalDeaths += incidentParsed.killed;
+			console.log(incidentParsed.Injured);
+			countLocalInjuries += incidentParsed.Injured;
+			countLocalDeaths += incidentParsed.Killed;
 		}
 	}	
 	ready = true;
