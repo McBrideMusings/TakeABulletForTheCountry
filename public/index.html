@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<title>Gun Violence</title>
 		
 		<!--AFrame-->
@@ -15,22 +15,24 @@
 	</head>
 	<body>
 		<div class="topbar">
-			<span id="location">loading...</span>
-		</div>
-		<div class="bottombar">
-			<div id="info">
-				<div id="incidents"></div>
-				<div id="injuries"></div>
-				<div id="deaths"></div>
-			</div>
+			<span id="location">Atlanta, Georgia</span>
+			<span id="divide">|</span>
+			<span id="incidents">0 incidents,</span>
+			<span id="injuries">0 injures,</span>
+			<span id="deaths">0 deaths,</span>
+			from guns in the last 72 hours
+			<span id="info">More Infromation</span>
 		</div>
 		<div class="vrwrapper">
+			<div id="left">
+				<ul id="llist">
+					
+				</ul> 
+			</div>
 			<a-scene embedded>
 				<a-assets>
 					<a-asset-item id="gun-dae" src="assets/gunColladaVersion.dae"></a-asset-item>
-					<a-asset-item id="bullet-dae" src="assets/Bullet.dae"></a-asset-item>
 				</a-assets>
-
 				<!--Gun-->
 				<a-collada-model id="gun"
 									collada-model="#gun-dae"
@@ -48,30 +50,67 @@
 												direction="alternate"
 												repeat="1"></a-animation>
 				</a-collada-model>
-				<!--Bullets-->
-				<a-entity id="PutBulletsHere">
-
-				</a-entity>
 				<a-sky color="#f21818"></a-sky>
 				<a-camera position="0 0 2.45"></a-camera>
 			</a-scene>
+			<div id="right">
+				<ul id="rlist">
+					
+				</ul> 
+			</div>
+		</div>
 		</div>
 		<script type="text/javascript" src="js/Generate.js"></script>
 		<script>
 			//var socket = io.connect("http://6310.lmc.gatech.edu:6010");
 			var socket = io.connect();
-			socket.on('returndata', function(data){
-				Start(data);
+			socket.on('returndata', function(data) {
+				getData(data);
   		});
-			$(document).ready(function()
-			{
+			socket.on('passbackLoc', function(results) {
+				parseLoc(results);
+  		});
+			$(document).ready(function() {
 				$("aframe").css("border-radius", "50%");
 			});
-			AFRAME.registerComponent('cursor-listener', {
-        init: function () {
-					console.log(this.class);
-        }
-      });
+			if (!navigator.geolocation) { //
+				console.log("Geolocation is not supported by your browser");
+    	}
+			else {
+				navigator.geolocation.getCurrentPosition(success, error);
+			}
+
+			function success(position) { //the code inside this function is mine though, because it interacts with my functions
+					var lat = position.coords.latitude;
+					var lng = position.coords.longitude;
+					console.log('Latitude is ' + lat + ' Longitude is ' + lng)
+					//output.innerHTML = 'Latitude is ' + gps.lat + ' Longitude is ' + gps.lng;
+					socket.emit('passLoc', {
+						latitude: lat,
+						longitude: lng
+					});
+			};
+
+			function error(error) {
+					switch(error.code) {
+					case error.PERMISSION_DENIED:
+							//output.innerHTML = "User denied the request for Geolocation."
+							console.log("User denied the request for Geolocation.");
+							break;
+					case error.POSITION_UNAVAILABLE:
+							//output.innerHTML = "Location information is unavailable."
+							console.log("Location information is unavailable.");
+							break;
+					case error.TIMEOUT:
+							//output.innerHTML = "The request to get user location timed out."
+							console.log("The request to get user location timed out.");
+							break;
+					case error.UNKNOWN_ERROR:
+							//output.innerHTML = "An unknown error occurred."
+							console.log("An unknown error occurred.");
+							break;
+					}
+			};
 		</script>
 	</body>
 </html>

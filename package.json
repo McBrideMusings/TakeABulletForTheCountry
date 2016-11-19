@@ -12,6 +12,7 @@
     "babyparse": "^0.4.6",
     "express": "^4.14.0",
     "jsonfile": "^2.4.0",
+    "node-geocoder": "^3.15.1",
     "node-open-geocoder": "^1.2.1",
     "search-google-geocode": "0.0.13",
     "socket.io": "^1.5.1",

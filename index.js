@@ -4,7 +4,17 @@ var jsonfile = require('jsonfile');
 var express = require('express');
 // create the app variable to apply an express intance to the server
 var app = express();
-
+var NodeGeocoder = require('node-geocoder');
+var options = {
+  provider: 'google',
+ 
+  // Optional depending on the providers 
+  httpAdapter: 'https', // Default 
+  apiKey: 'AIzaSyBKvrM39cdS8zhEf8JP9e2uouMkkiIIRSU', // for Mapquest, OpenCage, Google Premier 
+  formatter: null         // 'gpx', 'string', ... 
+};
+var geocoder = NodeGeocoder(options);
+var userLocation;
 
 //lets me use static files
 app.use(express.static('public'));
@@ -36,11 +46,19 @@ io.on('connection', function(socket){
 		io.emit('returndata', {
 			data: filedone
 		});
-		console.log(filedone[0]);
+		//console.log(filedone[0]);
 	});
 	socket.on('disconnect', function(){
     console.log('user disconnected');
   });
+	socket.on('passLoc', function(data) {
+		geocoder.reverse({lat:data.latitude, lon:data.longitude}, function(err, res) {
+			userLocation = res;
+			io.emit('passbackLoc', {
+				results: res
+			});
+		});
+	});
 });
 
 // create a route for the request and response.  This will serve the index.html in the public directory when someone directs their browser to the server URL

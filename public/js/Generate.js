@@ -11,33 +11,36 @@ var info = document.querySelector("#info");
 var gun = document.querySelector("#gun");
 var numk = document.querySelector("#numk");
 var numi = document.querySelector("#numi");
+var leftList = document.querySelector("#llist");
+var rightList = document.querySelector("#rlist");
 
 /*Initialize my Variables to something I can check against easily */
 var countLocalIncidents = 0;
 var countLocalInjuries = 0;
 var countLocalDeaths = 0;
 var incidentsData;
+var flipFlop = false;
 var matchedIncidents = [];
 var ready = false;
 var bulletIncidents = [];
-var city = "Atlanta";
-var state = "Georgia";
-var county = "Fulton";
+var locationObject;
+var city = "City";
+var state = "State";
+var county = "County";
 var intervalID = window.setInterval(Update, 1000);
 var timeElapsed = 0;
-var gps = { //Edit this in the code and uncoomment line 82, 83 and 120
-    "lat": 41.881832, //change default values otherwise computer will think you're at 0,0
-    "lng": -87.623177
-};
 var sumInIncident = 0;
 
-var states = ["AL", "AK", "AS", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FM", "FL", "GA", "GU", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MH", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "MP", "OH", "OK", "OR", "PW", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VI", "VA", "WA", "WV", "WI", "WY"];
-
-
-function Start(data) {
-	// TODO: Find a way to do reverse Geocoding
+function getData(data) {
 	incidentsData = data;
-	ParseIncidents();
+}
+
+function Wait() {
+	  if ( incidentsData ) {
+        ParseIncidents();
+    } else {
+        setTimeout( Wait, 250 );
+    }
 }
 
 function Update() {
@@ -46,9 +49,9 @@ function Update() {
 	else {
 		if (timeElapsed === 0) {
 			locationUI.innerHTML = city + ", " + state;
-			incidentsUI.innerHTML = countLocalIncidents + " of Gun Related Incidents";
-			injuriesUI.innerHTML = countLocalInjuries + " of Gun Related Injures";
-			deathsUI.innerHTML = countLocalDeaths + " of Gun Related Deaths";
+			incidentsUI.innerHTML = countLocalIncidents + " incidents, ";
+			injuriesUI.innerHTML = countLocalInjuries + " injures, ";
+			deathsUI.innerHTML = countLocalDeaths + " deaths ";
 		}
 		for (var k = 0; k < bulletIncidents.length; k++) {
 			//playGunSoundFXAni(incidentsToGenerate[0].injured, incidentsToGenerate[0].deaths);
@@ -62,27 +65,85 @@ function Update() {
 function getRandomNumber(min, max) { //Used when creating new bullets to randomize their positon. Copied from Albith code.
     return Math.random() * (max - min) + min;
 }
+function parseLoc(results) {
+	locationObject = results.results[0];
+	city = locationObject.city;
+	state = locationObject.administrativeLevels.level1long;
+	county = locationObject.administrativeLevels.level2long;
+	Wait();
+}
 
 function generateBullet(incidentParsed) { //myCallback calls this function for each incident logged in incidentsToGenerate
-    //console.log(incidentParsed);
-    var randomX = getRandomNumber(0, 5);
-    var randomZ = getRandomNumber(1, 2);
-    var randomPos = randomX + " 0 " + randomZ;
+	
+	if (flipFlop == false) {
+		var li = document.createElement("li");
+		li.setAttribute("class", "fullli");
+		var div1 = document.createElement("div");
+		div1.setAttribute("class", "llitext");
+		var div2 = document.createElement("div");
+		div2.setAttribute("class", "address");
+		div2.appendChild(document.createTextNode(incidentParsed.Address));
+		var div3 = document.createElement("div");
+		div3.setAttribute("class", "injuries");
+		div3.appendChild(document.createTextNode(incidentParsed.Injured + " Injured"));
+		var div4 = document.createElement("div");
+		div4.setAttribute("class", "deaths");
+		div4.appendChild(document.createTextNode(incidentParsed.Killed + " Killed"));
+		var div5 = document.createElement("div");
+		div5.setAttribute("class", "source");
+		div5.appendChild(document.createTextNode("Source " + incidentParsed.Operations));
+		var img = document.createElement("img");
+		img.setAttribute("src", "assets/bullet-right.png");
 
-    var entity = document.createElement("a-collada-model");
-    
-    //entity.setAttribute("position", randomPos);
-    //entity.setAttribute("rotation", "0 0 0");
-    entity.setAttribute("collada-model", "#bullet-dae");
-    entity.setAttribute("class", "bullet");
-		entity.setAttribute("dataincident", incidentParsed);
-		entity.setAttribute("cursor-listener");
+		div1.appendChild(div2);
+		div1.appendChild(div3);
+		div1.appendChild(div4);
+		div1.appendChild(div5);
+		li.appendChild(div1);
+		li.appendChild(img);
 
-    document.querySelector("#PutBulletsHere").appendChild(entity);
-    /* This line is the one that causes duplicates of every incident to be generated, but still colors the bullets. It's confusing. I wanted to use color to distiguish between bullets that represent fatal and non fatal shootings. Oh well */
-    //document.querySelector("#Bullet"+bulletCounter).setAttribute("material", materialSelected); //I don't understand why this doesn't work
-    
-    //bulletCounter++;
+		leftList.appendChild(li);
+		
+		var emptyli = document.createElement("li");
+		emptyli.setAttribute("class", "emptyli");
+		rightList.appendChild(emptyli);
+		
+		flipFlop = true;
+	}
+	else {
+		var li = document.createElement("li");
+		li.setAttribute("class", "fullli");
+		var div1 = document.createElement("div");
+		div1.setAttribute("class", "llitext");
+		var div2 = document.createElement("div");
+		div2.setAttribute("class", "address");
+		div2.appendChild(document.createTextNode(incidentParsed.Address));
+		var div3 = document.createElement("div");
+		div3.setAttribute("class", "injuries");
+		div3.appendChild(document.createTextNode(incidentParsed.Injured));
+		var div4 = document.createElement("div");
+		div4.setAttribute("class", "deaths");
+		div4.appendChild(document.createTextNode(incidentParsed.Killed));
+		var div5 = document.createElement("div");
+		div5.setAttribute("class", "source");
+		div5.appendChild(document.createTextNode(incidentParsed.Operations));
+		var img = document.createElement("img");
+		img.setAttribute("src", "assets/bullet-left.png");
+
+		div1.appendChild(div2);
+		div1.appendChild(div3);
+		div1.appendChild(div4);
+		div1.appendChild(div5);
+		li.appendChild(div1);
+		li.appendChild(img);
+
+		rightList.appendChild(li);
+		
+		var emptyli = document.createElement("li");
+		emptyli.setAttribute("class", "emptyli");
+		leftList.appendChild(emptyli);
+		flipFlop = false;
+	}
 }
 
 function playGunSoundFXAni(injured, deaths) { //this just uses the emit function in a-frame to make the gun and the cone animate for each incident logged in incidentsToGenerate. Also called in myCallback
@@ -109,7 +170,8 @@ function ParseIncidents() {
 		incidentParsed = parseIncident(incidentsData.data[j]);
 		//console.log("===Parsed Incident===");
 		//console.log(incidentParsed);
-		if (incidentParsed.CityOrCounty === city || incidentParsed.CityOrCounty === county) {
+		if (incidentParsed.State == state) {
+			if (incidentParsed.CityOrCounty.includes(city) || incidentParsed.CityOrCounty === county) {
 			//console.log("+++Matched Element++");
 			//console.log(incidentParsed);
 			countLocalIncidents++;
@@ -118,9 +180,10 @@ function ParseIncidents() {
 			for (var i = 0; i < tempKilledInjuredTotal; i++) {
 				bulletIncidents.push(incidentParsed);
 			}
-			console.log(incidentParsed.Injured);
+			//console.log(incidentParsed.Injured);
 			countLocalInjuries += incidentParsed.Injured;
 			countLocalDeaths += incidentParsed.Killed;
+			}
 		}
 	}	
 	ready = true;
