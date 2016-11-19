@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<title>Gun Violence</title>
+		
+		<!--AFrame-->
+		<script src="https://rawgit.com/aframevr/aframe/master/dist/aframe.min.js"></script>
 		<!--Stylesheet-->
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-		<!--AFrame-->
-		<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
 		<!--JQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<!--SocketIO-->
@@ -14,75 +15,102 @@
 	</head>
 	<body>
 		<div class="topbar">
-			<span id="location">loading...</span>
+			<span id="location">Atlanta, Georgia</span>
+			<span id="divide">|</span>
+			<span id="incidents">0 incidents,</span>
+			<span id="injuries">0 injures,</span>
+			<span id="deaths">0 deaths,</span>
+			from guns in the last 72 hours
+			<span id="info">More Infromation</span>
 		</div>
-		<div class="bottombar">
-			<div id="info">
-				<div id="incidents"></div>
-				<div id="injuries"></div>
-				<div id="deaths"></div>
+		<div class="vrwrapper">
+			<div id="left">
+				<ul id="llist">
+					
+				</ul> 
+			</div>
+			<a-scene embedded>
+				<a-assets>
+					<a-asset-item id="gun-dae" src="assets/gunColladaVersion.dae"></a-asset-item>
+				</a-assets>
+				<!--Gun-->
+				<a-collada-model id="gun"
+									collada-model="#gun-dae"
+									position="0.00 1.62 1.88"
+									rotation="-90 -90 178"
+									scale="0.10 0.10 0.10"		 
+									sound="src: url(assets/Gunshot.mp3); on: shotsound"
+									material="src: url(assets/handgun-texture.png)">
+										<a-animation begin="shot"
+												attribute="rotation"
+												from="-90 -90 178"
+												to="-60 -90 178"
+												dur="500"
+												easing="ease-out-back"
+												direction="alternate"
+												repeat="1"></a-animation>
+				</a-collada-model>
+				<a-sky color="#f21818"></a-sky>
+				<a-camera position="0 0 2.45"></a-camera>
+			</a-scene>
+			<div id="right">
+				<ul id="rlist">
+					
+				</ul> 
 			</div>
 		</div>
-		<a-scene>
-			<a-assets>
-				<a-asset-item id="gun-dae" src="assets/gunColladaVersion.dae"></a-asset-item>
-				<a-asset-item id="car-dae" src="assets/carcollada.dae"></a-asset-item>
-				<a-asset-item id="bullet-dae" src="assets/Bullet.dae"></a-asset-item>
-				<a-asset-item class="brick-dae" src="assets/Brick.dae"></a-asset-item>
-				<a-asset-item class="brick-tex" src="assets/brick-cinder_small.jpg"></a-asset-item>
-			</a-assets>
-			
-			<!--Gun-->
-			<a-collada-model id="gun"
-								collada-model="#gun-dae"
-								position="0.00 1.62 1.88"
-								rotation="-90 -90 178"
-								scale="0.10 0.10 0.10"		 
-								sound="src: url(assets/Gunshot.mp3); on: shotsound"
-								material="src: url(assets/handgun-texture.png)">
-									<a-animation begin="shot"
-											attribute="rotation"
-											from="-90 -90 178"
-											to="-60 -90 178"
-											dur="500"
-											easing="ease-out-back"
-											direction="alternate"
-											repeat="1"></a-animation>
-			</a-collada-model>
-			<!--Bullets-->
-			<a-entity id="PutBulletsHere">
-				
-			</a-entity>
-			
-      <a-sky color="#ECECEC"></a-sky>
-      <a-entity position="0 0 3.8">
-        <a-camera>
-					<a-entity position="0 0 -3"
-                geometry="primitive: ring; radiusOuter: 0.30;
-                          radiusInner: 0.20;"
-                material="color: cyan; shader: flat"
-                cursor="maxDistance: 30; fuse: true">
-					<a-animation begin="click" easing="ease-in" attribute="scale"
-							 fill="backwards" from="0.1 0.1 0.1" to="1 1 1" dur="150"></a-animation>
-					<a-animation begin="fusing" easing="ease-in" attribute="scale"
-							 fill="forwards" from="1 1 1" to="0.1 0.1 0.1" dur="1500"></a-animation>
-      		</a-entity>
-				</a-camera>
-      </a-entity>
-			
-		</a-scene>
+		</div>
 		<script type="text/javascript" src="js/Generate.js"></script>
 		<script>
 			//var socket = io.connect("http://6310.lmc.gatech.edu:6010");
 			var socket = io.connect();
-			socket.on('returndata', function(data){
-				Start(data);
+			socket.on('returndata', function(data) {
+				getData(data);
   		});
-			AFRAME.registerComponent('cursor-listener', {
-        init: function () {
-					//$('#info').text('bullettouch');
-        }
-      });
+			socket.on('passbackLoc', function(results) {
+				parseLoc(results);
+  		});
+			$(document).ready(function() {
+				$("aframe").css("border-radius", "50%");
+			});
+			if (!navigator.geolocation) { //
+				console.log("Geolocation is not supported by your browser");
+    	}
+			else {
+				navigator.geolocation.getCurrentPosition(success, error);
+			}
+
+			function success(position) { //the code inside this function is mine though, because it interacts with my functions
+					var lat = position.coords.latitude;
+					var lng = position.coords.longitude;
+					console.log('Latitude is ' + lat + ' Longitude is ' + lng)
+					//output.innerHTML = 'Latitude is ' + gps.lat + ' Longitude is ' + gps.lng;
+					socket.emit('passLoc', {
+						latitude: lat,
+						longitude: lng
+					});
+			};
+
+			function error(error) {
+					switch(error.code) {
+					case error.PERMISSION_DENIED:
+							//output.innerHTML = "User denied the request for Geolocation."
+							console.log("User denied the request for Geolocation.");
+							break;
+					case error.POSITION_UNAVAILABLE:
+							//output.innerHTML = "Location information is unavailable."
+							console.log("Location information is unavailable.");
+							break;
+					case error.TIMEOUT:
+							//output.innerHTML = "The request to get user location timed out."
+							console.log("The request to get user location timed out.");
+							break;
+					case error.UNKNOWN_ERROR:
+							//output.innerHTML = "An unknown error occurred."
+							console.log("An unknown error occurred.");
+							break;
+					}
+			};
 		</script>
 	</body>
 </html>
