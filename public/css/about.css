@@ -1,8 +1,30 @@
 html {
 	margin: 0;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 body {
 	margin: 0;
 	background-color: red;
+}
+#topbar {
+	height: 40px;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	background-color: white;
+	padding-top: 10px;
+}
+#text {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+h1 {
+
+}
+h3 {
+	
+}
+p {
+	
 }

@@ -5,30 +5,46 @@ html {
 }
 body {
 	margin: 0;
-	background-color: red;
+	background-color: #EF0202;
 }
 .topbar {
 	position: fixed;
+	display: flex;
 	z-index: 5000;
 	height: 40px;
 	width: 100%;
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
-	background-color: red;
-	padding-left: 10px;
+	background-color: #F44336;
+}
+#location {
+	width: 20vw;
+	padding-left: 1vw;
+	text-align: center;
+}
+#topdata {
+	width: 60vw;
+	text-align: center;
 }
 #info {
+	width: 20vw;
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
-	float: right;
-	margin-right: 20px;
+	text-align: center;
+	padding-right: 1vh;
+	border-right: 5px;
+	border-color: black;
+}
+#info:hover {
+	background-color: gray;
 }
 
 a-scene {
 	position: fixed;
 	left: 20%;
-	height: 800px;
+	height: 120%;
 	width: 60%;
+	cursor: default;
 }
 ul {
 	padding: 0;
@@ -62,10 +78,13 @@ ul#llist > li {
 	z-index: 50000;
 }
 .llitext {
-	background-color: aqua;
+	background-color: #C7D6D5;
 	margin-left: -100px;
 	padding-left: 100px;
 	padding-right: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 40px;
 }
 
 /*Right List*/

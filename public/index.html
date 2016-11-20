@@ -15,13 +15,16 @@
 	</head>
 	<body>
 		<div class="topbar">
-			<span id="location">Atlanta, Georgia</span>
-			<span id="divide">|</span>
-			<span id="incidents">0 incidents,</span>
-			<span id="injuries">0 injures,</span>
-			<span id="deaths">0 deaths,</span>
-			from guns in the last 72 hours
-			<span id="info">More Infromation</span>
+			<div id="location">
+				<span>Atlanta, Georgia</span>
+			</div>
+			<div id="topdata">
+				<span id="incidents">0 incidents,</span>
+				<span id="injuries">0 injuries,</span>
+				<span id="deaths">0 deaths,</span>
+				from guns in the last 72 hours
+			</div>
+			<a href="about.html"><div id="info">More Infromation</div></a>
 		</div>
 		<div class="vrwrapper">
 			<div id="left">
@@ -50,15 +53,14 @@
 												direction="alternate"
 												repeat="1"></a-animation>
 				</a-collada-model>
-				<a-sky color="#f21818"></a-sky>
-				<a-camera position="0 0 2.45"></a-camera>
+				<a-sky color="#EF0202"></a-sky>
+				<a-camera position="0 0 2.5" look-controls="enabled: false" wasd-controls="enabled: false"></a-camera>
 			</a-scene>
 			<div id="right">
 				<ul id="rlist">
 					
 				</ul> 
 			</div>
-		</div>
 		</div>
 		<script type="text/javascript" src="js/Generate.js"></script>
 		<script>
