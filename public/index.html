@@ -72,6 +72,10 @@
 			socket.on('passbackLoc', function(results) {
 				parseLoc(results);
   		});
+			socket.on('returntabledata', function(table) {
+				console.log(table.data[0][0].Operations);
+				console.log("this");
+  		});
 			$(document).ready(function() {
 				$("aframe").css("border-radius", "50%");
 			});

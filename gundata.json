@@ -1,2837 +1,2657 @@
 [
   {
-    "IncidentDate": "17-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Norfolk",
-    "Address": "322 Shirley Ave",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Cocoa",
-    "Address": "800 block of North Fiske Boulevard",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Ohio",
-    "CityOrCounty": "Columbus",
-    "Address": "201 Hutchinson Ave",
+    "CityOrCounty": "Cincinnati (Walnut Hills)",
+    "Address": "900 block of Yale Avenue",
     "Killed": 0,
-    "Injured": 0,
+    "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "17-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "5229 Normandy Boulevard",
+    "CityOrCounty": "Boca Raton",
+    "Address": "23000 block of County Road 7",
     "Killed": 0,
-    "Injured": 1,
+    "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "17-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "North Liberty Street and East 18th Street",
+    "CityOrCounty": "Palm Beach Gardens",
+    "Address": "3600 block of Lighthouse Drive",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "17-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Miami",
-    "Address": "Northwest 54th Street and Second Avenue",
-    "Killed": 0,
-    "Injured": 3,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Indiana",
-    "CityOrCounty": "Indianapolis",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Idaho",
-    "CityOrCounty": "Nampa",
-    "Address": "16802 Nash Lane",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "3900 block of West Grenshaw",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago (Roseland)",
-    "Address": "11200 block of South Edbrooke",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "8300 block of South Hamilton",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Shreveport",
-    "Address": "2160 Hollywood Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Xenia",
-    "Address": "700 block of North Richard Drive",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Columbus",
-    "Address": "201 Hutchinson Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Nevada",
-    "CityOrCounty": "Las Vegas",
-    "Address": "2985 South Las Vegas Boulevard",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Mississippi",
-    "CityOrCounty": "Jackson",
-    "Address": "Willie Avenue and Truman Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Montgomery",
-    "Address": "300 block of Burgwyn Road",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "4200 block of South Racine",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Minnesota",
-    "CityOrCounty": "Saint Paul",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Soledad",
-    "Address": "200 block of Second Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "Gentilly Boulevard",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Hampton",
-    "Address": "1900 block of Kensington Drive",
-    "Killed": 0,
-    "Injured": 3,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Corpus Christi",
-    "Address": "Santa Fe and Craig Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Iowa",
-    "CityOrCounty": "Mason City",
-    "Address": "1620 North Hampshire Avenue",
-    "Killed": 2,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Philadelphia",
-    "Address": "5254 Market Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Atlanta",
-    "Address": "Luckie Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Memphis",
-    "Address": "Joy Lane",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Wisconsin",
-    "CityOrCounty": "Milwaukee",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "17-Nov-16",
-    "State": "Wisconsin",
-    "CityOrCounty": "Milwaukee",
-    "Address": "15th and State",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Missouri",
-    "CityOrCounty": "Saint Charles",
-    "Address": "10 block of Wilbert Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Cocoa",
-    "Address": "300 block of Pine Avenue",
-    "Killed": 2,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Oregon",
-    "CityOrCounty": "Portland",
-    "Address": "2839 NW St Helens Rd",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Minnesota",
-    "CityOrCounty": "Minneapolis (Richfield)",
-    "Address": "6244 Cedar Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Homestead",
-    "Address": "1600 block of West Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Indiana",
-    "CityOrCounty": "Indianapolis",
-    "Address": "East 38th Street and Fall Creek Parkway Trail",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Indiana",
-    "CityOrCounty": "Indianapolis",
-    "Address": "1948 Tallman Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "6600 block of South Washtenaw",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "8000 block of South Stony Island Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Indiana",
-    "CityOrCounty": "Indianapolis",
-    "Address": "200 block of North Shortridge Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Winston Salem (Winston-Salem)",
-    "Address": "4364 Old Walkertown Road",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Evans",
-    "Address": "4545 Cox Road",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Louisville",
-    "Address": "1000 block of S. Hancock Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Louisville",
-    "Address": "1300 block of South 26th Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Loxahatchee",
-    "Address": "11800 block of Seminole Pratt Whitney Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
     "CityOrCounty": "Delray Beach",
-    "Address": "4900 block of West Linton Boulevard",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Delray Beach",
-    "Address": "100 block of South Longport Circle",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "1500 West 29th",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "Rudd Road and Commonwealth Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Tampa",
-    "Address": "404 North Hernandez Court",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Fort Walton Beach",
-    "Address": "206 3rd Street SE",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Clarksville",
-    "Address": "400 block of Martha Lane",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Louisville",
-    "Address": "5000 block of Stephan Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Suffolk",
-    "Address": "500 block of Lucerne Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Hampton",
-    "Address": "2121 Kecoughtan Rd",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "New Hampshire",
-    "CityOrCounty": "Nashua",
-    "Address": "Lake St and Ash St",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "300 block of West 119th Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "2100 block of South California",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Pensacola",
-    "Address": "1400 North Olive Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "1600 block of South Drake",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Hollywood",
-    "Address": "2127 Roosevelt Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Glen Ellyn",
-    "Address": "677 Roosevelt Rd.",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "2000 block of Wright Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Riverdale",
-    "Address": "6810 Worthington Drive",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Mcdonough",
-    "Address": "George W. Lemon Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "2600 block of West Luther",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Michigan",
-    "CityOrCounty": "Battle Creek",
-    "Address": "100 block of East Kingman Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Bastrop",
-    "Address": "320 Ogden Avenue",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Kansas",
-    "CityOrCounty": "Kansas City",
-    "Address": "200 block of North 15th Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Grant",
     "Address": "N/A",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "16-Nov-16",
-    "State": "North Dakota",
-    "CityOrCounty": "Bismarck",
-    "Address": "1700 block of North Fourth Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Michigan",
-    "CityOrCounty": "Grand Rapids",
-    "Address": "College Avenue and Griggs Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "New Jersey",
-    "CityOrCounty": "Burlington",
-    "Address": "100 block of East Broad Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Washington",
-    "CityOrCounty": "Cowlitz (county)",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Birmingham",
-    "Address": "4th Avenue North and Center Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Birmingham",
-    "Address": "3rd Avenue West",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Arkansas",
-    "CityOrCounty": "Jonesboro",
-    "Address": "Paragould Drive and Prospect Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Urbana",
-    "Address": "202 East University Avenue",
-    "Killed": 2,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "5600 block of Pauline Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "Bourbon Street and St. Peters Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Centreville",
-    "Address": "8 Court Square W",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "5200 block of West Quincy",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Shreveport",
-    "Address": "100 block of Southfield Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Shreveport",
-    "Address": "300 block of West 75th Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Delaware",
-    "CityOrCounty": "Seaford",
-    "Address": "Church and Concord Pond",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "1355 Tiger Drive",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Massachusetts",
-    "CityOrCounty": "Brockton",
-    "Address": "29 Merton St",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Raleigh",
-    "Address": "3301 South Wilmington Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Kansas",
-    "CityOrCounty": "Wichita",
-    "Address": "2700 block of N. Piatt",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Bakersfield",
-    "Address": "Niles and Fairfax",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Kannapolis",
-    "Address": "200 block of Cedar Brook Drive",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Oakland",
-    "Address": "88th Avenue and E Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Smyrna",
-    "Address": "3995 South Cobb Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Whittier",
-    "Address": "13400 block of Penn Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "District of Columbia",
-    "CityOrCounty": "Washington",
-    "Address": "5000 blk of Call Place SE",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Longview",
-    "Address": "2500 block of North Eastman Road",
-    "Killed": 2,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Baton Rouge",
-    "Address": "3200 block of Duke Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Montgomery",
-    "Address": "Cresta Circle",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "San Antonio",
-    "Address": "214 West Dickson Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
-    "CityOrCounty": "Fort Myers",
-    "Address": "Sixth Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Baldwin Park",
-    "Address": "Baldwin Park Boulevard and Ramona Avenue",
+    "CityOrCounty": "Boynton Beach",
+    "Address": "1000 block of North Seacrest Blvd",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Duarte",
-    "Address": "Flagstone Avenue and Maydee Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Arizona",
-    "CityOrCounty": "Buckeye",
-    "Address": "West Watkins Street and 231st Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "1900 block of South Christiana",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Lenoir (county)",
-    "Address": "Highway 258",
+    "IncidentDate": "November 23, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Boynton Beach",
+    "Address": "2000 block of NE 1st Way",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "6800 block of Parc Brittany Boulevard",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Massachusetts",
-    "CityOrCounty": "New Bedford",
-    "Address": "100 Block of Sycamore St",
+    "IncidentDate": "November 23, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Boynton Beach",
+    "Address": "900 block of NW 1st Street",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "16-Nov-16",
-    "State": "Massachusetts",
-    "CityOrCounty": "Springfield",
-    "Address": "George St and Maple St",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Macon (county)",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Montgomery",
-    "Address": "4100 block of Fitzpatrick Blvd.",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "Edgebrook",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Mississippi",
-    "CityOrCounty": "Marion (county)",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "El Paso",
-    "Address": "O'Dell Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Savannah",
-    "Address": "White Bluff Road and Magnolia Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "300 block of Deslonde Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Wisconsin",
-    "CityOrCounty": "Milwaukee",
-    "Address": "27th and Burleigh",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Wisconsin",
-    "CityOrCounty": "Milwaukee",
-    "Address": "4400 Block of N 68th St",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Delaware",
-    "CityOrCounty": "Wilmington",
-    "Address": "Linden and S. Van Buren",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Tomball",
-    "Address": "24200 block of FM 2978",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "San Antonio",
-    "Address": "1500 block of Hays Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Memphis",
-    "Address": "Knight Arnold Road and Ridgeway Road",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Redding",
-    "Address": "2779 Reservoir Lane",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Berkeley",
-    "Address": "1260 Allston Way",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "California",
-    "CityOrCounty": "San Francisco",
-    "Address": "Hancock Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Buffalo",
-    "Address": "East Delavan Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Dallas",
-    "Address": "4500 Block of Spring Garden Ave",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Elyria",
-    "Address": "Woodland Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Charlotte",
-    "Address": "1000 block of State St",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Syracuse",
-    "Address": "1700 block of East Fayette Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Utah",
-    "CityOrCounty": "Salt Lake City (Millcreek)",
-    "Address": "1500 East and 3045 South",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "16-Nov-16",
-    "State": "Utah",
-    "CityOrCounty": "Salt Lake City",
-    "Address": "1506 E. 3045 South",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Webster",
-    "Address": "800 block of West Bay Area Boulevard",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Connecticut",
-    "CityOrCounty": "Bridgeport",
-    "Address": "Hancock Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Connecticut",
-    "CityOrCounty": "Bridgeport",
-    "Address": "115 Highland Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Wyoming",
-    "CityOrCounty": "Rawlins",
-    "Address": "5th Street and Pine Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "South Dakota",
-    "CityOrCounty": "Dell Rapids",
-    "Address": "East 9th Street and Ladelle Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "York (county)",
-    "Address": "Interstate 83",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Camp Hill",
-    "Address": "1 Green Lane Dr",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Rhode Island",
-    "CityOrCounty": "Providence",
-    "Address": "June Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Maryland",
-    "CityOrCounty": "Baltimore",
-    "Address": "3000 block of Oakfield Ave",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Maryland",
-    "CityOrCounty": "Baltimore",
-    "Address": "3000 block of Greenmount Ave",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Philadelphia",
-    "Address": "2100 block of Indiana Avenue",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Philadelphia",
-    "Address": "2600 block of North Stanley",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "New Kensington (Lower Burrell)",
-    "Address": "2705 7th Street Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Lexington",
-    "Address": "Henton Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Oregon",
-    "CityOrCounty": "Happy Valley",
-    "Address": "Southeast Sunnyside Road and 139th Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Cleveland",
-    "Address": "West 43rd Street and Clark Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Oklahoma",
-    "CityOrCounty": "Tulsa",
-    "Address": "51st and Yale",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Charlotte",
-    "Address": "1437 East Sugar Creek Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Alton",
-    "Address": "Seventh and Spring Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Springfield",
-    "Address": "2700 block of Vigal Road",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "4300 block of West Fulton Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "2300 block of South Whipple Avenue",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Oak Ridge",
-    "Address": "104 East Holston Lane",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Perry",
-    "Address": "423 General Courtney Hodges Boulevard",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Indiana",
-    "CityOrCounty": "East Chicago",
-    "Address": "4500 block of Tod Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Temecula",
-    "Address": "41002 County Center Drive",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Kinston",
-    "Address": "1300 Block of Hayloft Circle",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Hawthorne",
-    "Address": "3800 El Segundo Boulevard",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "New Jersey",
-    "CityOrCounty": "Trenton",
-    "Address": "Randall Ave and Elm St",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Nevada",
-    "CityOrCounty": "Pahrump",
-    "Address": "4201 N Blagg Rd",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alaska",
-    "CityOrCounty": "Anchorage",
-    "Address": "1005 East 74th Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Falkville",
-    "Address": "5900 block of County Road 1223",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Petersburg",
-    "Address": "600 block of Morton Avenue",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Foley",
-    "Address": "North Alston Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
     "CityOrCounty": "Fort Pierce",
-    "Address": "1400 block of Havana Avenue",
-    "Killed": 1,
+    "Address": "1200 block of Avenue K",
+    "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
-    "CityOrCounty": "Saint Lucie (county)",
-    "Address": "N/A",
+    "CityOrCounty": "West Palm Beach",
+    "Address": "100 block of Porter Place",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Valley Stream",
-    "Address": "Catherine Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Nashville",
-    "Address": "22nd Street and Lakeshore Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Oklahoma",
-    "CityOrCounty": "Oklahoma City",
-    "Address": "7100 Terminal Drive",
-    "Killed": 2,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "6500 block of Kinlock Drive",
-    "Killed": 0,
-    "Injured": 3,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Levittown",
-    "Address": "935 Veteran Hwy",
-    "Killed": 1,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Miami Gardens",
-    "Address": "Northwest 155th Terrace",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Crestview",
-    "Address": "Stillwell Boulevard",
+    "CityOrCounty": "Wellington",
+    "Address": "1300 block of Northampton Terrace",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Hampton",
-    "Address": "2121 Kecoughtan Road",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Peoria",
-    "Address": "3500 block of North Gale Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Newport News",
-    "Address": "14000 block of Penrith Lane",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Palm Beach Gardens (Riviera Beach)",
-    "Address": "2600 block of Avenue H",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "7200 Bailey Court",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Belle Glade",
-    "Address": "408 SE 1st Avenue",
-    "Killed": 0,
-    "Injured": 3,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Orlando",
-    "Address": "Grand Street and South Parramore Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "Loretto Road and Lake Ride Drive",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "Yellow Bluff Road and Victoria Lakes Drive",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Micanopy",
-    "Address": "Interstate 75",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Jacksonville",
-    "Address": "Pinnochio Drive and South Lane Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "6800 block of South Merrill",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Marianna",
-    "Address": "Myles Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Tallahassee",
-    "Address": "2900 Miller Landing",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Montana",
-    "CityOrCounty": "Bozeman",
-    "Address": "Brackett Creek Road and Skunk Creek Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Columbus",
-    "Address": "100 block of Ticknor Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Columbus",
-    "Address": "17th Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Memphis",
-    "Address": "1849 East Brooks Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "New Jersey",
-    "CityOrCounty": "Trenton",
-    "Address": "1400 block of Edgewood Avenue",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Abbeville",
-    "Address": "404 MLK Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Michigan",
-    "CityOrCounty": "Lake City",
-    "Address": "North 8 Mile Road and East Simpson Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Arkansas",
-    "CityOrCounty": "Little Rock",
-    "Address": "815 E Capital",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "3800 block of Nashville Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Birmingham",
-    "Address": "42nd Avenue North",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Birmingham",
-    "Address": "900 block of Arkadelphia Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Montgomery",
-    "Address": "2700 block of S. Wallace Drive",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Connecticut",
-    "CityOrCounty": "Hartford",
-    "Address": "York Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Champaign",
+    "CityOrCounty": "Warren",
     "Address": "N/A",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "Arkansas",
-    "CityOrCounty": "Hot Springs National Park (Hot Springs)",
-    "Address": "300 block of Skyview Terrace",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Baton Rouge",
-    "Address": "North Foster Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Charlotte",
-    "Address": "1228 Gordon Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Alabama",
-    "CityOrCounty": "Birmingham",
-    "Address": "600 block of 6th Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "New Jersey",
-    "CityOrCounty": "Bridgeton",
-    "Address": "200 block of Cohansey Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Fontana",
-    "Address": "17255 Merrill Avenue",
+    "IncidentDate": "November 23, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Deltona",
+    "Address": "Normandy Blvd and Hancock Drive",
     "Killed": 1,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "Interstate 290 East",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Maryland",
-    "CityOrCounty": "Baltimore",
-    "Address": "7900 block of Belair Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Maryland",
-    "CityOrCounty": "Baltimore",
-    "Address": "3100 block of W. North Ave",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Waco",
-    "Address": "320 North New Road",
+    "IncidentDate": "November 23, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Jacksonville",
+    "Address": "8100 Denny Road",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "Kansas",
-    "CityOrCounty": "Lenexa",
-    "Address": "Interstate 35 and 87th Street",
+    "IncidentDate": "November 23, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Jacksonville",
+    "Address": "3200 Dignan Street",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Port Hueneme",
-    "Address": "2500 block of Yardarm Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "New Orleans",
-    "Address": "1400 block of Spain Street",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Florida",
     "CityOrCounty": "Orlando",
-    "Address": "7400 block of Megan Elissa Lane",
+    "Address": "N/A",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "West Virginia",
-    "CityOrCounty": "Kanawha (county)",
-    "Address": "230 Sharon Hollow Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Fayetteville",
-    "Address": "1900 block of Blake Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Arden",
-    "Address": "Spring Valley Drive",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "South Carolina",
-    "CityOrCounty": "Myrtle Beach",
-    "Address": "North Myrtle Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "South Carolina",
-    "CityOrCounty": "North Charleston",
-    "Address": "Easy Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Albany",
-    "Address": "400 block of Cason Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Harrisonburg",
-    "Address": "1100 block of Devon Lane",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Albany",
-    "Address": "1500 block Avalon Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Katy",
-    "Address": "Blossombury Court",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Memphis",
-    "Address": "I-40",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Austin",
-    "Address": "3100 Block of Powell Lane",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Trenton",
-    "Address": "130 Crockett Manor Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Lexington",
-    "Address": "1865 Wickland Dr",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "San Antonio",
-    "Address": "8600 block of Fairhaven",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Memphis",
-    "Address": "1600 block of Harville",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "San Antonio",
-    "Address": "400 block of Brookview Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "7000 block of Bissonnet",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Rosharon",
-    "Address": "5100 block of Apollo Lane",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Missouri",
-    "CityOrCounty": "Kansas City",
-    "Address": "5501 Bannister Road",
-    "Killed": 1,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Missouri",
-    "CityOrCounty": "Kansas City",
-    "Address": "24th and Park",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Jennings",
-    "Address": "606 Highway 90 E",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Chicago",
-    "Address": "1800 block of South Kildare Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Illinois",
     "CityOrCounty": "Chicago (Englewood)",
-    "Address": "6500 block of South Justine Street",
+    "Address": "1900 block of West 59th Street",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Orlando (Pine Hills)",
-    "Address": "2918 Pine Hills Road",
+    "IncidentDate": "November 23, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "3300 block of West North Avenue",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Memphis",
-    "Address": "4315 South Third Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Kansas",
-    "CityOrCounty": "Wichita",
-    "Address": "1200 block of North Madison",
+    "IncidentDate": "November 23, 2016",
+    "State": "Nebraska",
+    "CityOrCounty": "Omaha",
+    "Address": "J.A. Creighton Boulevard",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Mississippi",
-    "CityOrCounty": "Gulfport",
-    "Address": "17200 16th Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Naples (Golden Gate)",
-    "Address": "800 block of Logan Boulevard",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Michigan",
-    "CityOrCounty": "Saginaw",
-    "Address": "Boxwood and Garey",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Michigan",
-    "CityOrCounty": "Alcona (county)",
-    "Address": "N/A",
+    "CityOrCounty": "Jackson",
+    "Address": "Larson Street",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "15-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "West Virginia",
-    "CityOrCounty": "Parkersburg",
-    "Address": "101 Tara Lane",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Maine",
-    "CityOrCounty": "Hollis Center",
-    "Address": "490 River Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Buffalo",
-    "Address": "1 block of Herman Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Buffalo",
-    "Address": "Masten Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Vermont",
-    "CityOrCounty": "Essex",
-    "Address": "1 Franklin Square",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Portsmouth",
-    "Address": "3800 block of Magnolia Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "California",
-    "CityOrCounty": "San Bernardino",
-    "Address": "300 block of W. 13th Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Utah",
-    "CityOrCounty": "Salt Lake City",
-    "Address": "855 S Pueblo St",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Wyoming",
-    "CityOrCounty": "Mills",
-    "Address": "400 block of 2nd",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "15-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Baton Rouge",
-    "Address": "3000 block of Laurel St.",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Cleveland",
-    "Address": "1400 block of West 101st Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Wyoming",
-    "CityOrCounty": "Casper",
-    "Address": "1200 block of West Collins Drive",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Tennessee",
-    "CityOrCounty": "Rogersville",
+    "CityOrCounty": "Troy",
     "Address": "N/A",
-    "Killed": 0,
+    "Killed": 1,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Richmond",
-    "Address": "1300 block of N. 31st Street",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Manassas",
-    "Address": "9700 block of Aspen Place",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Philadelphia",
-    "Address": "2000 block of South 60th Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Richmond",
-    "Address": "4721 Walmsley Boulevard",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "Rowell Court",
-    "Killed": 0,
-    "Injured": 3,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Utah",
-    "CityOrCounty": "Orem",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 2,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Minnesota",
-    "CityOrCounty": "Laporte",
-    "Address": "Osprey Drive",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "New Hampshire",
-    "CityOrCounty": "Manchester",
-    "Address": "1500 S Willow St",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Fremont",
-    "Address": "42900 block of Fremont Boulevard",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "10220 Blackhawk Boulevard",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "10700 Fondren Road",
+    "CityOrCounty": "Prior Lake",
+    "Address": "2136 Sioux Trail",
     "Killed": 1,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "Tidwell and Jensen",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Pico Rivera",
-    "Address": "8800 block of Dalewood Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Oxnard",
-    "Address": "600 block of East Gonzalez Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "California",
-    "CityOrCounty": "Encinitas",
-    "Address": "1700 block of El Camino Real",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Harrisburg",
-    "Address": "17th and Walnut",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Philadelphia",
-    "Address": "1900 block of 25th Street",
+    "IncidentDate": "November 23, 2016",
+    "State": "Colorado",
+    "CityOrCounty": "Colorado Springs",
+    "Address": "5135 Harrington",
     "Killed": 1,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Pennsylvania",
-    "CityOrCounty": "Philadelphia",
-    "Address": "Ridge Avenue and Cambridge Street",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Washington",
-    "CityOrCounty": "Seattle",
-    "Address": "Dearbon Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Newport News",
-    "Address": "7400 block of River Road",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Newport News",
-    "Address": "400 block of Tara Court",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Oklahoma",
-    "CityOrCounty": "Tulsa",
-    "Address": "11327 East 23rd Street",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Virginia",
-    "CityOrCounty": "Richmond",
-    "Address": "Minefee Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Oklahoma",
-    "CityOrCounty": "Tulsa",
-    "Address": "11th Street and 129th East Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Delaware",
-    "Address": "U.S. Route 23",
-    "Killed": 1,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 23, 2016",
     "State": "Louisiana",
-    "CityOrCounty": "Leesville",
-    "Address": "1020 Fertitta Boulevard",
+    "CityOrCounty": "New Orleans",
+    "Address": "3100 block of St. Claude Street",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 23, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Temple",
+    "Address": "900 block of 12th Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Temple",
+    "Address": "West Avenue A and South 33rd Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago (Englewood)",
+    "Address": "6800 block of South Morgan",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "4100 block of West 47th Street",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Oklahoma",
+    "CityOrCounty": "Owasso",
+    "Address": "9002 North 121st East Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Oklahoma",
+    "CityOrCounty": "Tulsa",
+    "Address": "East King Street and North 71st",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Austell",
+    "Address": "Austell Road and Drennon Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Killeen",
+    "Address": "4200 block of July Drive",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Texas",
+    "CityOrCounty": "San Antonio",
+    "Address": "1500 block of Burnet",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 23, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Jackson",
+    "Address": "Caldwell Place and Ridgemont Drive",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "South Carolina",
+    "CityOrCounty": "Orangeburg",
+    "Address": "Maedrine Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Ridgeland",
+    "Address": "1018 Highland Colony Pkwy #300",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
     "State": "Indiana",
-    "CityOrCounty": "Indianapolis",
-    "Address": "East Michigan Street and Pine Street",
+    "CityOrCounty": "Anderson",
+    "Address": "1600 block of West 7th Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "Monroe",
+    "Address": "Hill Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "Lafayette",
+    "Address": "500 block of South Bienville Street",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "New Mexico",
-    "CityOrCounty": "Las Cruces",
-    "Address": "300 Chamisa Village",
+    "IncidentDate": "November 22, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Clinton",
+    "Address": "6300 block of Aaron Lane",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Idaho",
-    "CityOrCounty": "Caldwell",
-    "Address": "North Illinois Avenue and Marble Front Road",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "New Jersey",
-    "CityOrCounty": "Neptune (Neptune City)",
-    "Address": "Drummond Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "New Hampshire",
-    "CityOrCounty": "Nashua",
-    "Address": "N/A",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 22, 2016",
     "State": "New York",
-    "CityOrCounty": "New York (Manhattan)",
-    "Address": "476 W. 144 Street",
+    "CityOrCounty": "Buffalo",
+    "Address": "500 Block of East Amherst St",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 22, 2016",
+    "State": "Alabama",
+    "CityOrCounty": "Florence",
+    "Address": "County Roads 81 and 200",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
     "State": "Indiana",
-    "CityOrCounty": "Indianapolis",
-    "Address": "East Washington Street and North Harbison Avenue",
+    "CityOrCounty": "Gary",
+    "Address": "4400 block of Maryland Street",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 22, 2016",
+    "State": "Minnesota",
+    "CityOrCounty": "Eveleth",
+    "Address": "Highway 101 and Admiral Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Indiana",
+    "CityOrCounty": "Gary",
+    "Address": "East 49th Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arkansas",
+    "CityOrCounty": "Little Rock",
+    "Address": "200 block of North Taylor Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "New Mexico",
+    "CityOrCounty": "Albuquerque",
+    "Address": "Fifth and Rosemont",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "New Mexico",
+    "CityOrCounty": "Albuquerque",
+    "Address": "500 Mountain Rd NW",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "9th and Olive",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "4000 block of North Market",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "5200 block of Gilmore Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Nevada",
+    "CityOrCounty": "Las Vegas",
+    "Address": "Judson Avenue and Dolly Lane",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
     "State": "Missouri",
     "CityOrCounty": "Kansas City",
-    "Address": "37th Street and Prospect Avenue",
+    "Address": "St. John and Cypress Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "East Saint Louis",
+    "Address": "1500 Lynch Avenue",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Georgia",
-    "CityOrCounty": "Decatur",
-    "Address": "4943 Snapfinger Woods Drive",
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "11900 block of South Wallace",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "5400 block of South May",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Iowa",
+    "CityOrCounty": "Burlington",
+    "Address": "400 block of S. Garfield",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Columbus",
+    "Address": "Dana Avenue and Sullivant Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Iowa",
+    "CityOrCounty": "Burlington",
+    "Address": "Aetna and Gunnison",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "Fresno",
+    "Address": "2609 East Ashlan Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Columbus",
+    "Address": "1480 West Broad Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "Alameda",
+    "Address": "508 Westline Drive",
     "Killed": 0,
     "Injured": 2,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Baton Rouge",
-    "Address": "4412 Gus Young Avenue",
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "Chula Vista",
+    "Address": "Kearney Street and Church Avenue",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "El Monte",
+    "Address": "9800 block of Giovane Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Middletown",
+    "Address": "1500 block of Brown Street",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Louisiana",
-    "CityOrCounty": "Baton Rouge",
-    "Address": "4941 Byron Ave",
+    "IncidentDate": "November 22, 2016",
+    "State": "Indiana",
+    "CityOrCounty": "Michigan City",
+    "Address": "2800 block of Maple Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Clewiston",
+    "Address": "1068 Harlem Academy Avenue",
+    "Killed": 1,
+    "Injured": 4,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Dayton",
+    "Address": "1208 Amherst Dr",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami",
+    "Address": "Northwest 17th Avenue and Northwest 31st Street",
+    "Killed": 1,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami",
+    "Address": "130 NW 57th St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Michigan",
+    "CityOrCounty": "Detroit",
+    "Address": "3650 Lincoln Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Indiana",
+    "CityOrCounty": "Evansville",
+    "Address": "400 block of Key West Drive",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "10000 block of Deerfield Drive",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Jackson",
+    "Address": "Belvedere Drive",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami Gardens",
+    "Address": "15800 NW 42nd Ave",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Meridian",
+    "Address": "2425 E St.",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Indiana",
+    "CityOrCounty": "Indianapolis",
+    "Address": "1500 block of Barrington Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "San Diego",
+    "Address": "324 Horton Plaza",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "New Jersey",
+    "CityOrCounty": "Newark",
+    "Address": "Sherman Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "West Palm Beach",
+    "Address": "2100 Block of North Australian Ave",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "South Carolina",
+    "CityOrCounty": "Bennettsville",
+    "Address": "Moore Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Chandler",
+    "Address": "Germann Road and Alma School Road",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Valdosta",
+    "Address": "5000 block of Fontana Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Phoenix",
+    "Address": "43rd Avenue and Maryland Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Memphis",
+    "Address": "Thistle Down Cove",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
     "State": "Illinois",
-    "CityOrCounty": "Joliet",
-    "Address": "200 block of North Hickory Street",
+    "CityOrCounty": "Chicago",
+    "Address": "3541 South California",
     "Killed": 0,
     "Injured": 3,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Montana",
-    "CityOrCounty": "Billings",
-    "Address": "1425 Broadwater Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Ohio",
-    "CityOrCounty": "Columbus",
-    "Address": "South Ohio Avenue and Reinhard Avenue",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Rockford",
-    "Address": "2300 block of Pershing Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Massachusetts",
-    "CityOrCounty": "Springfield",
-    "Address": "Union St and Hancock St",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Rockford",
-    "Address": "2300 block of Overdene Avenue",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Lexington",
-    "Address": "1111 Centre Pkwy",
-    "Killed": 0,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Missouri",
-    "CityOrCounty": "Springfield",
-    "Address": "315 N Park Avenue",
-    "Killed": 2,
-    "Injured": 0,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Massachusetts",
-    "CityOrCounty": "Boston",
-    "Address": "482 Washington St",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Illinois",
-    "CityOrCounty": "Springfield",
-    "Address": "400 block of South Paul Street",
-    "Killed": 0,
-    "Injured": 1,
-    "Operations": "N/A"
-  },
-  {
-    "IncidentDate": "14-Nov-16",
-    "State": "Michigan",
-    "CityOrCounty": "Detroit",
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
     "Address": "N/A",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Gloversville",
-    "Address": "22 East Pine Street",
-    "Killed": 1,
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "Bakersfield",
+    "Address": "South Haley Street",
+    "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Kentucky",
-    "CityOrCounty": "Daviess (county)",
-    "Address": "Hall School Road",
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "Los Angeles",
+    "Address": "1400 block of East 51st Street",
     "Killed": 1,
+    "Injured": 3,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "California",
+    "CityOrCounty": "Compton",
+    "Address": "400 block of Raymond Street",
+    "Killed": 3,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Michigan",
-    "CityOrCounty": "Flint",
-    "Address": "Grayson Drive",
+    "IncidentDate": "November 22, 2016",
+    "State": "Texas",
+    "CityOrCounty": "San Antonio",
+    "Address": "1700 block of Rogers Avenue",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Salisbury",
-    "Address": "Horah Street",
+    "IncidentDate": "November 22, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Baytown",
+    "Address": "Main and I-10 Westbound",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Lehigh Acres",
+    "Address": "3972 4th Street SW",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami Beach",
+    "Address": "Ninth Street and Jefferson Avenue",
     "Killed": 0,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "New York",
-    "CityOrCounty": "Brooklyn",
-    "Address": "90 Manhattan Ave",
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami",
+    "Address": "8201 Northwest 17th Avenue",
     "Killed": 0,
     "Injured": 3,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Indiana",
-    "CityOrCounty": "Richmond",
-    "Address": "223 S. 14th St.",
+    "IncidentDate": "November 22, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami",
+    "Address": "11200 block of Southwest 220th Terrace",
     "Killed": 0,
     "Injured": 1,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "Florida",
-    "CityOrCounty": "Ormond Beach",
-    "Address": "3626 Plantation Drive",
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "Baton Rouge",
+    "Address": "2200 block of 73rd Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Charlotte",
+    "Address": "200 block of North Clarkson Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "Spain Street and North Derbigny Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Baltimore",
+    "Address": "1000 block of North Monroe Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "Canal Street and North Carrollton Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Parkville",
+    "Address": "2309 Cleanleigh Drive",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Baltimore",
+    "Address": "3900 block of Liberty Heights Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Kentucky",
+    "CityOrCounty": "Nicholasville",
+    "Address": "708 South Main Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "New York",
+    "CityOrCounty": "Howard Beach",
+    "Address": "151st Avenue and 85th Street",
     "Killed": 1,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
+    "IncidentDate": "November 22, 2016",
+    "State": "Rhode Island",
+    "CityOrCounty": "Providence",
+    "Address": "380 Orms St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Phoenix",
+    "Address": "Indian School Road and 12th Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Christiansburg",
+    "Address": "Woodrow Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Fall River",
+    "Address": "123 5th St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Pennsylvania",
+    "CityOrCounty": "Easton",
+    "Address": "3000 block of Sherwood Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arkansas",
+    "CityOrCounty": "Little Rock",
+    "Address": "2000 block of Harrison Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Charlotte",
+    "Address": "6600 block of The Plaza",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Oklahoma",
+    "CityOrCounty": "Henryetta",
+    "Address": "13755 Coalton Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "5700 block of West Irving Park Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Cleveland (Garfield Heights)",
+    "Address": "5629 Turney Rd",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Springfield",
+    "Address": "51 Fort Pleasant Ave",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Kentucky",
+    "CityOrCounty": "Louisville",
+    "Address": "17th and Hale Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Boston",
+    "Address": "416 Warren St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Memphis",
+    "Address": "1052 Rosewood Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "La Vergne",
+    "Address": "Waldron Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Nashville",
+    "Address": "1500 block of University Court",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Brockton",
+    "Address": "Alden St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Brockton",
+    "Address": "4 Hemlock St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "La Vergne",
+    "Address": "Nir Shreibman Boulevard and Murfreesboro Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arkansas",
+    "CityOrCounty": "Little Rock",
+    "Address": "Bay Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Nashville",
+    "Address": "15007 Old Hickory Boulevard",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Macon",
+    "Address": "Houston Avenue and Hartley Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Lawrenceville",
+    "Address": "1556 Lawrenceville Hwy",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Durham",
+    "Address": "Wabash Street and Dayton Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
     "State": "Texas",
-    "CityOrCounty": "Houston",
-    "Address": "9500 Hempstead Road",
+    "CityOrCounty": "Corpus Christi",
+    "Address": "Shely Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Kansas",
+    "CityOrCounty": "Kansas City",
+    "Address": "55th St. and Swartz Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Lumberton",
+    "Address": "2505 Martin Luther King Jr Dr",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Kentucky",
+    "CityOrCounty": "Lexington",
+    "Address": "Woodview Drive",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Spring (Shenandoah)",
+    "Address": "1501 Research Forest Dr",
+    "Killed": 1,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Kentucky",
+    "CityOrCounty": "Bowling Green",
+    "Address": "William Natcher Parkway",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Alabama",
+    "CityOrCounty": "Florence",
+    "Address": "East Limestone Street and Plum Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "8000 block of South Carpenter",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "132nd Place and King Drive",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Atlanta (East Point)",
+    "Address": "1200 block of Virginia Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "3500 block of West Van Buren",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Texas",
+    "CityOrCounty": "San Antonio",
+    "Address": "300 block of Channing",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Texas",
+    "CityOrCounty": "San Antonio",
+    "Address": "N/A",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Memphis",
+    "Address": "4400 block of Hodge Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Tucson",
+    "Address": "1800 block of South Van Buren",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Nevada",
+    "CityOrCounty": "Las Vegas",
+    "Address": "5101 E Twain Ave",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "New Jersey",
+    "CityOrCounty": "Newark",
+    "Address": "18th Ave and Alexander St",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Wisconsin",
+    "CityOrCounty": "Milwaukee (West Allis)",
+    "Address": "76th and National",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 22, 2016",
+    "State": "Wisconsin",
+    "CityOrCounty": "Green Bay",
+    "Address": "1600 Block of Deckner Ave",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Edinburg",
+    "Address": "1600 block of Monte Suma Drive",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Pennsylvania",
+    "CityOrCounty": "Bloomsburg",
+    "Address": "Millville Rd",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Abilene",
+    "Address": "800 Block of Cypress Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Triangle",
+    "Address": "Olde Port Ln and Graham Park Rd",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Oklahoma",
+    "CityOrCounty": "Oklahoma City",
+    "Address": "10000 Block of Richmond Drive",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Norfolk",
+    "Address": "East Olney Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Lompoc",
+    "Address": "1100 block of North H Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Michigan",
+    "CityOrCounty": "Lansing",
+    "Address": "3000 block of South Washington Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Jefferson City",
+    "Address": "County Park Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Jackson",
+    "Address": "2505 Martin Luther King Jr Dr.",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Cincinnati (Roselawn)",
+    "Address": "1600 block of Sparkle Drive",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Peoria",
+    "Address": "2600 block of North Prospect Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "North Dakota",
+    "CityOrCounty": "Williston",
+    "Address": "N/A",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Greensboro",
+    "Address": "300 block of Gant Street",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "Trout",
+    "Address": "12893 Highway 84 West",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "Alexandria",
+    "Address": "4400 block of Lee Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Petersburg",
+    "Address": "Harding Street at St. Matthew Street",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Phoenix",
+    "Address": "51st Avenue and McDowell Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Rhode Island",
+    "CityOrCounty": "Providence",
+    "Address": "562 Cranston Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Alabama",
+    "CityOrCounty": "Hanceville",
+    "Address": "1100 block of County Highway 10",
     "Killed": 2,
     "Injured": 0,
     "Operations": "N/A"
   },
   {
-    "IncidentDate": "14-Nov-16",
-    "State": "North Carolina",
-    "CityOrCounty": "Kings Mountain",
-    "Address": "Linwood Road and First Street",
+    "IncidentDate": "November 21, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Buzzards Bay (Bourne)",
+    "Address": "Megansett Rd",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Washington",
+    "CityOrCounty": "Seattle",
+    "Address": "10300 block of 51st Avenue South",
     "Killed": 0,
     "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Peoria",
+    "Address": "1900 block of North Milton Court",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "600 block of Fassen",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Dayton (Kettering)",
+    "Address": "3200 block of Carrier Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Iowa",
+    "CityOrCounty": "Burlington",
+    "Address": "2100 block of Williams Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Oakland",
+    "Address": "2300 block of 80th Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Niceville",
+    "Address": "N/A",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "La Mirada",
+    "Address": "13550 South Beach Boulevard",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Sun City (Romoland)",
+    "Address": "24300 block of Briggs Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Port Richey",
+    "Address": "7245 Jennifer St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Middletown",
+    "Address": "300 block of Park Street",
+    "Killed": 0,
+    "Injured": 3,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "San Bernardino",
+    "Address": "6900 block of Tippecanoe Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Middletown",
+    "Address": "911 Crawford St",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Fairborn",
+    "Address": "100 block of West Dayton Yellow Springs",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Michigan",
+    "CityOrCounty": "Hulbert",
+    "Address": "M-28",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Henrico (county)",
+    "Address": "3900 block of Orion Court",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Michigan",
+    "CityOrCounty": "Ypsilanti",
+    "Address": "1076 Ecorse Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Deerfield Beach",
+    "Address": "1200 W Hillsboro Blvd",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Panama City",
+    "Address": "4200 block of Grady St",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Winter Haven",
+    "Address": "310 Lake Daisy Loop",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Tallahassee",
+    "Address": "Ausley Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "3200 block of Palmyra Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "3600 block of North Claiborne Avenue",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Cape Coral",
+    "Address": "4800 Block of Manor Ct",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Fresno",
+    "Address": "Elm Avenue and North Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Hoopa",
+    "Address": "Bair Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Arkansas",
+    "CityOrCounty": "Little Rock",
+    "Address": "5103 Asher Ave.",
+    "Killed": 0,
+    "Injured": 3,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Arkansas",
+    "CityOrCounty": "Little Rock",
+    "Address": "9101 Auxor Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Jackson",
+    "Address": "W. McDowell Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Gulfport",
+    "Address": "N/A",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Memphis",
+    "Address": "600 block of Hillcrest",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Meridian",
+    "Address": "4700 block of 40th Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Pensacola",
+    "Address": "400 Block of North Devilliers St",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "West Virginia",
+    "CityOrCounty": "Charleston",
+    "Address": "1500 block of Washington Street East",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Wisconsin",
+    "CityOrCounty": "Milwaukee",
+    "Address": "6400 block of W. Villard Ave",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "New Jersey",
+    "CityOrCounty": "Paterson",
+    "Address": "Lafayette and Mercer streets",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Baltimore",
+    "Address": "5000 block of Beaufort Avenue",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Baltimore",
+    "Address": "2900 block of Arunah Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "2100 block of South Wolcott",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Delaware",
+    "CityOrCounty": "Dover",
+    "Address": "300 block of Martin St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Jackson",
+    "Address": "McDowell Rd",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "District of Columbia",
+    "CityOrCounty": "Washington",
+    "Address": "11th and Lamont Street NW",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "South Carolina",
+    "CityOrCounty": "Bennettsville",
+    "Address": "Moore Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Knoxville",
+    "Address": "305 Ben Hur Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Venice",
+    "Address": "511 Rose Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Virginia Beach",
+    "Address": "400 block of Williams Court",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "Read Boulevard",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "California",
+    "CityOrCounty": "Long Beach",
+    "Address": "10th Street and Park Avenue",
+    "Killed": 2,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Pensacola",
+    "Address": "49th Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "1300 block of South Homan",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Miami",
+    "Address": "1176 Northwest 79th St",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Pennsylvania",
+    "CityOrCounty": "Easton",
+    "Address": "2800 block of Eldridge Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Newport News",
+    "Address": "5832 Jefferson Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "New York",
+    "CityOrCounty": "Buffalo",
+    "Address": "100 block victoria avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "6500 block of Smiley Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Oregon",
+    "CityOrCounty": "Beavercreek",
+    "Address": "Highway 213",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Grovetown",
+    "Address": "100 Whiskey Rd",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Memphis",
+    "Address": "Lake Valley Drive",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Knoxville",
+    "Address": "6802 Cardindale Drive",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "South Carolina",
+    "CityOrCounty": "Graniteville",
+    "Address": "112 Woods Haven",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Lynn",
+    "Address": "Essex St",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Connecticut",
+    "CityOrCounty": "New London",
+    "Address": "55 Eastern Ave.",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Cleveland",
+    "Address": "3643 East 116th Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Durham",
+    "Address": "NC 55 and Carpenter Fletcher Road",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Greensboro",
+    "Address": "2 Hiltin Place",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Baytown",
+    "Address": "400 block of William Avenue",
+    "Killed": 0,
+    "Injured": 3,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Hattiesburg",
+    "Address": "3000 block of Prince George Road",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Mississippi",
+    "CityOrCounty": "Meridian",
+    "Address": "1st Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Port Arthur",
+    "Address": "600 block of West 17 Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Georgia",
+    "CityOrCounty": "Atlanta",
+    "Address": "2300 block of Cascade Road SW",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Virginia",
+    "CityOrCounty": "Hampton",
+    "Address": "1000 block of Jonquil Lane",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "New Orleans",
+    "Address": "Mardi Gras Street and Nunez Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Mesa",
+    "Address": "330 S Gilbert Rd # 3",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "South Carolina",
+    "CityOrCounty": "Conway",
+    "Address": "Fairway Lane",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "San Antonio",
+    "Address": "600 block of Knotty Knoll Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "13100 block of South St. Lawrence",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "1300 block of South Karlov",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "8000 block of South Houston",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "5000 block of South Racine",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "8800 block of South Burley",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Pennsylvania",
+    "CityOrCounty": "Philadelphia",
+    "Address": "3500 block of North 15th Street",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Youngstown",
+    "Address": "400 block of Imperial Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "West Virginia",
+    "CityOrCounty": "Saint Albans",
+    "Address": "300 block of Kentucky Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "South Carolina",
+    "CityOrCounty": "Conway",
+    "Address": "Dillon Street and Grainger Road",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Kansas City",
+    "Address": "55th Street and Brooklyn Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Pennsylvania",
+    "CityOrCounty": "Philadelphia",
+    "Address": "2900 Block of Turner St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Pennsylvania",
+    "CityOrCounty": "Philadelphia",
+    "Address": "4400 block of North Gratz Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Houston",
+    "Address": "8100 Block of Martin Luther King Jr. Boulevard",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Tyler",
+    "Address": "N/A",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 21, 2016",
+    "State": "New York",
+    "CityOrCounty": "Buffalo",
+    "Address": "1 Peace Bridge",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Oregon",
+    "CityOrCounty": "Roseburg",
+    "Address": "17000 block of North Bank Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "New Mexico",
+    "CityOrCounty": "Albuquerque",
+    "Address": "Central and Broadway",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Tennessee",
+    "CityOrCounty": "Robertson (county)",
+    "Address": "Lahr Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Louisiana",
+    "CityOrCounty": "Many (Sabine)",
+    "Address": "N/A",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "3533 Hampton Ave",
+    "Killed": 1,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "New Jersey",
+    "CityOrCounty": "Trenton",
+    "Address": "100 Block of Oakland St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Kankakee",
+    "Address": "13500E block of 2000S Road",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Columbia",
+    "Address": "Rangeline Street and Vandiver Drive",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Vero Beach",
+    "Address": "962 14th Ln",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Raleigh",
+    "Address": "1500 block of Burgundy Street",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "North Carolina",
+    "CityOrCounty": "Charlotte",
+    "Address": "Keswick Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Chicago",
+    "Address": "2500 block of West Lithuanian Plaza Court",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Phoenix",
+    "Address": "16th Street and Thomas Road",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Illinois",
+    "CityOrCounty": "Danville",
+    "Address": "Deerwood and Moore",
+    "Killed": 0,
+    "Injured": 2,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Arizona",
+    "CityOrCounty": "Tucson",
+    "Address": "7671 E Tanque Verde Rd",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Utah",
+    "CityOrCounty": "Salt Lake City (West Valley City)",
+    "Address": "1831 W. Parkway Blvd",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Saint Louis",
+    "Address": "5200 block of North Euclid",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Missouri",
+    "CityOrCounty": "Columbia",
+    "Address": "1800 block of Kathy Street",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Indiana",
+    "CityOrCounty": "Woodburn",
+    "Address": "2400 block of River Road",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "New York",
+    "CityOrCounty": "Bronx",
+    "Address": "Southern Boulevard",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "New York",
+    "CityOrCounty": "Ithaca",
+    "Address": "100 block of South Meadow Street.",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Kentucky",
+    "CityOrCounty": "Louisville",
+    "Address": "2300 block of Ratcliffe Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Michigan",
+    "CityOrCounty": "Kalamazoo",
+    "Address": "900 Block of Douglas Avenue",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Columbus",
+    "Address": "300 block of South Harris Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "California",
+    "CityOrCounty": "San Diego",
+    "Address": "2242 Gill Village Way",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Holyoke",
+    "Address": "43 Mosher St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Massachusetts",
+    "CityOrCounty": "Brockton",
+    "Address": "57 River St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Baltimore",
+    "Address": "5600 block of Albanene Place",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Maryland",
+    "CityOrCounty": "Baltimore",
+    "Address": "1300 block of N. Monroe St.",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Dayton",
+    "Address": "1502 Wayne Avenue",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Milton",
+    "Address": "5000 block of Martin Luther King Drive",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "North Dakota",
+    "CityOrCounty": "Bismarck",
+    "Address": "700 block of South 12th Street",
+    "Killed": 0,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Ohio",
+    "CityOrCounty": "Cincinnati (Evanston)",
+    "Address": "1900 block of Fairfax Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "California",
+    "CityOrCounty": "Hemet",
+    "Address": "300 block of North Hamilton Avenue",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Florida",
+    "CityOrCounty": "Tampa",
+    "Address": "10008 N 30th St",
+    "Killed": 0,
+    "Injured": 1,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Texas",
+    "CityOrCounty": "Houston",
+    "Address": "8955 Richmond",
+    "Killed": 1,
+    "Injured": 0,
+    "Operations": "N/A"
+  },
+  {
+    "IncidentDate": "November 20, 2016",
+    "State": "Kentucky",
+    "CityOrCounty": "Mount Washington",
+    "Address": "High Point Court",
+    "Killed": 0,
+    "Injured": 0,
     "Operations": "N/A"
   }
 ]

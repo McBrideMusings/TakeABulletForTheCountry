@@ -42,8 +42,6 @@ function Wait() {
 }
 
 function Update() {
-	console.log(timeElapsed);
-	console.log(timeTo);
 	if (!ready) {return;}
 	else {
 		if (timeElapsed === 0) {

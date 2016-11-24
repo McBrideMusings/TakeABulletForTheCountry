@@ -28,7 +28,8 @@ var io = require('socket.io')(http);
 http.listen(6010, function () {
 	console.log('app listening on port 6010.');
 });
-
+var operationsdata;
+var scraper = require('table-scraper');
 
 var file = 'gundata.json';
 
@@ -48,6 +49,15 @@ io.on('connection', function(socket){
 		});
 		//console.log(filedone[0]);
 	});
+	scraper
+  .get('http://www.gunviolencearchive.org/last-72-hours')
+  .then(function(tableData) {
+    operationsdata = tableData[0][0].Operations;
+		console.log(operationsdata);
+		io.emit('returntabledata', {
+			data: tableData
+		});
+  });
 	socket.on('disconnect', function(){
     console.log('user disconnected');
   });
