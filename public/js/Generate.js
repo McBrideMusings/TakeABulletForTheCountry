@@ -8,159 +8,85 @@ var locationUI = document.querySelector("#location");
 var gun = document.querySelector("#gun");
 var leftList = document.querySelector("#llist");
 var rightList = document.querySelector("#rlist");
+var bulletsPlace = document.querySelector('#PutBulletsHere');
 
 /*Initialize my Variables to something I can check against easily */
 var countLocalIncidents = 0;
 var countLocalInjuries = 0;
 var countLocalDeaths = 0;
-var incidentsData;
+var allIncidentsData;
 var flipFlop = false;
-var matchedIncidents = [];
+var localIncidentsData = [];
 var ready = false;
 var bulletIncidents = [];
 var locationObject;
 var city = "City";
 var state = "State";
 var county = "County";
-var intervalID = window.setInterval(Update, 1000);
-var timeElapsed = 0;
-var timeTo = 0;
+var cityDataReady = false;
+var gunDataReady = false;
+var hasDisplayedData = false;
+var bulletIterator = 0;
+var loadingDone = false;
 
-function getData(data) {
-	incidentsData = data;
-	timeTo = Math.round(Math.random()*5);
-	if (timeTo <= 2)
-		timeTo += 3;
+
+/*GET GUN DATA*/
+function getGunData(data) { /*Stores ALL gun incident data, later matched with local city*/
+	allIncidentsData = data;
 }
-
-function Wait() {
-	  if ( incidentsData ) {
-        ParseIncidents();
+/**/
+/*GET AND PARSE LOCATION DATA*/
+function getLocationData(results) {
+	locationObject = results;
+	city = results.city;
+	state = results.administrativeLevels.level1long;
+	county = results.administrativeLevels.level2long;
+	cityDataReady = true;
+}
+/**/
+/*WAIT FOR CITY AND INCIDENT DATA TO BE PARSED*/
+function WaitToParseData() { /*Parse Requires City Data, otherwise how would I know which data to display*/
+	if ( allIncidentsData && cityDataReady) { 
+			ParseForLocalIncidents();
+	} else {
+			setTimeout( WaitToParseData, 250 );
+	}
+}
+/**/
+/*WAIT FOR LOCAL INCIDENTS TO BE MATCHED*/
+function WaitToDisplayData(){
+	if (gunDataReady) { 
+        displayData();
     } else {
-        setTimeout( Wait, 250 );
+        setTimeout( WaitToDisplayData, 250 );
     }
 }
 
-function Update() {
-	console.log(timeElapsed);
-	console.log(timeTo);
-	if (!ready) {return;}
-	else {
-		if (timeElapsed === 0) {
-			locationUI.innerHTML = city + ", " + state;
-			incidentsUI.innerHTML = countLocalIncidents + " incidents, ";
-			injuriesUI.innerHTML = countLocalInjuries + " injures, ";
-			deathsUI.innerHTML = countLocalDeaths + " deaths ";
-		}
-		if (bulletIncidents.length > 0) {
-			if (timeElapsed === timeTo) {
-				playGunSoundFXAni();
-				generateBullet(bulletIncidents[0]);
-				bulletIncidents.shift();
-				timeTo = ((Math.random()*5) + 1);
-				timeElapsed = 0;
-			}
-		}
+function displayData() {
+	locationUI.innerHTML = city + ", " + state;
+	incidentsUI.innerHTML = countLocalIncidents + " incidents, ";
+	injuriesUI.innerHTML = countLocalInjuries + " injures, ";
+	deathsUI.innerHTML = countLocalDeaths + " deaths ";
+	while (bulletIterator < countLocalInjuries + countLocalDeaths) {
+		generateBullet();
+		bulletIterator++;
 	}
-	timeElapsed++;
-}
-
-function getRandomNumber(min, max) { //Used when creating new bullets to randomize their positon. Copied from Albith code.
-    return Math.random() * (max - min) + min;
-}
-function parseLoc(results) {
-	locationObject = results.results[0];
-	city = locationObject.city;
-	state = locationObject.administrativeLevels.level1long;
-	county = locationObject.administrativeLevels.level2long;
-	Wait();
-}
-
-function generateBullet(incidentParsed) { //myCallback calls this function for each incident logged in incidentsToGenerate
-	
-	if (flipFlop == false) {
-		var li = document.createElement("li");
-		li.setAttribute("class", "fullli");
-		var div1 = document.createElement("div");
-		div1.setAttribute("class", "llitext");
-		var div2 = document.createElement("div");
-		div2.setAttribute("class", "address");
-		div2.appendChild(document.createTextNode(incidentParsed.Address));
-		var div3 = document.createElement("div");
-		div3.setAttribute("class", "injuries");
-		div3.appendChild(document.createTextNode(incidentParsed.Injured + " Injured"));
-		var div4 = document.createElement("div");
-		div4.setAttribute("class", "deaths");
-		div4.appendChild(document.createTextNode(incidentParsed.Killed + " Killed"));
-		var div5 = document.createElement("div");
-		div5.setAttribute("class", "source");
-		div5.setAttribute("href", incidentParsed.Operations);
-		div5.appendChild(document.createTextNode("Source"));
-		var img = document.createElement("img");
-		img.setAttribute("src", "assets/bullet-right.png");
-
-		div1.appendChild(div2);
-		div1.appendChild(div3);
-		div1.appendChild(div4);
-		div1.appendChild(div5);
-		li.appendChild(div1);
-		li.appendChild(img);
-
-		leftList.appendChild(li);
-		
-		var emptyli = document.createElement("li");
-		emptyli.setAttribute("class", "emptyli");
-		rightList.appendChild(emptyli);
-		
-		flipFlop = true;
+	console.log(bulletIterator);
+	while (bulletIncidents.length > 0) {
+		generateIncidentCard(bulletIncidents[0]);
+		bulletIncidents.shift();
 	}
-	else {
-		var li = document.createElement("li");
-		li.setAttribute("class", "fullli");
-		var div1 = document.createElement("div");
-		div1.setAttribute("class", "llitext");
-		var div2 = document.createElement("div");
-		div2.setAttribute("class", "address");
-		div2.appendChild(document.createTextNode(incidentParsed.Address));
-		var div3 = document.createElement("div");
-		div3.setAttribute("class", "injuries");
-		div3.appendChild(document.createTextNode(incidentParsed.Injured));
-		var div4 = document.createElement("div");
-		div4.setAttribute("class", "deaths");
-		div4.appendChild(document.createTextNode(incidentParsed.Killed));
-		var div5 = document.createElement("div");
-		div5.setAttribute("class", "source");
-		div5.setAttribute("href", incidentParsed.Operations);	div5.appendChild(document.createTextNode("Source"));
-		var img = document.createElement("img");
-		img.setAttribute("src", "assets/bullet-right.png");
-
-		div1.appendChild(div2);
-		div1.appendChild(div3);
-		div1.appendChild(div4);
-		div1.appendChild(div5);
-		li.appendChild(div1);
-		li.appendChild(img);
-
-		rightList.appendChild(li);
-		
-		var emptyli = document.createElement("li");
-		emptyli.setAttribute("class", "emptyli");
-		leftList.appendChild(emptyli);
-		flipFlop = false;
-	}
+	loadingDone = true;
 }
+/**/
 
-function playGunSoundFXAni(injured, deaths) {
-    gun.emit('shotsound');
-    gun.emit('shot');
-}
 
-//SETUP FUNCTIONS
-function ParseIncidents() {
+/*GUN DATA PARSING*/
+function ParseForLocalIncidents() {
 	var incidentParsed;
 	var tempKilledInjuredTotal;
-	for(var j = 0; j < incidentsData.data.length-1; j++) {
-		incidentParsed = parseIncident(incidentsData.data[j]);
+	for(var j = 0; j < allIncidentsData.data.length-1; j++) {
+		incidentParsed = allIncidentsData.data[j];
 		//console.log("===Parsed Incident===");
 		//console.log(incidentParsed);
 		if (incidentParsed.State == state) {
@@ -168,30 +94,144 @@ function ParseIncidents() {
 			//console.log("+++Matched Element++");
 			//console.log(incidentParsed);
 			countLocalIncidents++;
-			matchedIncidents.push(incidentParsed);
+			localIncidentsData.push(incidentParsed);
 			tempKilledInjuredTotal = incidentParsed.Killed + incidentParsed.Injured;
-			for (var i = 0; i < tempKilledInjuredTotal; i++) {
-				bulletIncidents.push(incidentParsed);
-			}
+			bulletIncidents.push(incidentParsed);
 			//console.log(incidentParsed.Injured);
 			countLocalInjuries += incidentParsed.Injured;
 			countLocalDeaths += incidentParsed.Killed;
 			}
 		}
 	}	
-	ready = true;
+	gunDataReady = true;
 }
+/**/
 
-function parseIncident(incident) { //This is all my code. This function just compartmentalizes the code nescessary to parse through each incident reported on twitter into JSON format
-	var incidentParsed = { //Stores each incident
-		"IncidentDate": incident.IncidentDate,
-		"State": incident.State,
-		"CityOrCounty": incident.CityOrCounty,
-		"Address": incident.Address,
-		"Killed": incident.Killed,
-		"Injured": incident.Injured,
-		"Operations": incident.Operations,
+
+
+
+/*DISPLAY FUNCTIONS*/
+/*Generate a list item on alternating sides*/
+function generateIncidentCard(incidentParsed) {
+	//console.log("generateBullet");
+	if (flipFlop == false) {
+		var li = document.createElement("li");
+		li.setAttribute("class", "fullli");
+		
+		var spacerdiv = document.createElement("div");
+		spacerdiv.setAttribute("class", "ltextspacer");
+		
+		var div = document.createElement("div");
+		div.setAttribute("class", "llitext");
+		
+		var span1 = document.createElement("span");
+		span1.setAttribute("class", "address");	span1.appendChild(document.createTextNode(incidentParsed.Address));
+		
+		var span2 = document.createElement("span");
+		span2.setAttribute("class", "injuries");	span2.appendChild(document.createTextNode(incidentParsed.Injured + " Injured"));
+		
+		var span3 = document.createElement("span");
+		span3.setAttribute("class", "deaths");	span3.appendChild(document.createTextNode(incidentParsed.Killed + " Killed"));
+		
+		var span4 = document.createElement("span");
+		span4.setAttribute("class", "source");
+		var a = document.createElement("a");
+		a.setAttribute("href", incidentParsed.Operations);
+		a.appendChild(document.createTextNode("Source"));
+		span4.appendChild(a);
+		
+		//var img = document.createElement("img");
+		//img.setAttribute("src", "assets/bullet-right.png");
+
+		div.appendChild(span1);
+		div.appendChild(document.createElement("br"));
+		div.appendChild(span2);
+		div.appendChild(document.createElement("br"));
+		div.appendChild(span3);
+		div.appendChild(document.createElement("br"));
+		div.appendChild(span4);
+		spacerdiv.appendChild(div)
+		li.appendChild(spacerdiv);
+		//li.appendChild(img);
+
+		leftList.appendChild(li);
+		
+		var emptyli = document.createElement("li");
+		emptyli.setAttribute("class", "remptyli");
+		rightList.appendChild(emptyli);
+		
+		flipFlop = true;
 	}
-	return incidentParsed;
+	else {
+		var li = document.createElement("li");
+		li.setAttribute("class", "fullli");
+		
+		var spacerdiv = document.createElement("div");
+		spacerdiv.setAttribute("class", "rtextspacer");
+		
+		var div = document.createElement("div");
+		div.setAttribute("class", "rlitext");
+		
+		var span1 = document.createElement("span");
+		span1.setAttribute("class", "address");	span1.appendChild(document.createTextNode(incidentParsed.Address));
+		
+		var span2 = document.createElement("span");
+		span2.setAttribute("class", "injuries");	span2.appendChild(document.createTextNode(incidentParsed.Injured + " Injured"));
+		
+		var span3 = document.createElement("span");
+		span3.setAttribute("class", "deaths");	span3.appendChild(document.createTextNode(incidentParsed.Killed + " Killed"));
+		
+		var span4 = document.createElement("span");
+		span4.setAttribute("class", "source");
+		var a = document.createElement("a");
+		a.setAttribute("href", incidentParsed.Operations);
+		a.appendChild(document.createTextNode("Source"));	span4.appendChild(a);
+
+		div.appendChild(span1);
+		div.appendChild(document.createElement("br"));
+		div.appendChild(span2);
+		div.appendChild(document.createElement("br"));
+		div.appendChild(span3);
+		div.appendChild(document.createElement("br"));
+		div.appendChild(span4);
+		spacerdiv.appendChild(div)
+		li.appendChild(spacerdiv);
+
+		rightList.appendChild(li);
+		
+		var emptyli = document.createElement("li");
+		emptyli.setAttribute("class", "lemptyli");
+		leftList.appendChild(emptyli);
+		flipFlop = false;
+	}
 }
 
+function generateBullet() {
+	var radius = 0.3;
+	var startX = 0;
+	var startY = 0;
+	var lengthX = 360;
+	var lengthY = 360;
+	var min = 0;
+	var max = 360;
+
+	var xAngle = THREE.Math.degToRad(Math.random() * lengthX + startX);
+	var yAngle = THREE.Math.degToRad(Math.random() * lengthY + startY);
+	
+	var entity = document.createElement("a-collada-model");
+	entity.setAttribute('position', {
+		x: radius * Math.cos(xAngle) * Math.sin(yAngle),
+		y: radius * Math.sin(xAngle) * Math.sin(yAngle),
+		z: radius * Math.cos(yAngle)
+	});
+	entity.setAttribute('rotation', {
+		x: Math.random() * max + min,
+		y: Math.random() * max + min,
+		z: Math.random() * max + min
+	});
+
+	entity.setAttribute("scale",'0.03 0.03 0.03');
+	entity.setAttribute("collada-model", "#bullet-dae");
+	bulletsPlace.appendChild(entity);
+}
+/**/

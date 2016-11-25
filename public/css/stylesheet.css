@@ -1,11 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
 html {
 	margin: 0;
 	overflow-x: hidden;
+	font-family: 'Oswald', sans-serif;
 }
 body {
 	margin: 0;
-	background-color: #EF0202;
+	background-color: ;
+	background-color: #6a2a28;
+}
+a {
+	width: 100%;
+	color: aqua;
+}
+
+#loadingblocker {
+	opacity:1;
+  background-color:#121212;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:6000;
 }
 .topbar {
 	position: fixed;
@@ -13,32 +30,26 @@ body {
 	z-index: 5000;
 	height: 40px;
 	width: 100%;
-	font-family: 'Oswald', sans-serif;
-	font-size: 24px;
-	background-color: #F44336;
+	font-size: 1.45rem;
+	font-weight: 700;
+	color: #181818;
+	background-color: #B22931;
 }
 #location {
-	width: 20vw;
-	padding-left: 1vw;
+	width: 20%;
+	padding-left: 5px;
 	text-align: center;
 }
 #topdata {
-	width: 60vw;
+	width: 60%;
 	text-align: center;
 }
 #info {
-	width: 20vw;
+	width: 20%;
 	font-family: 'Oswald', sans-serif;
-	font-size: 24px;
 	text-align: center;
-	padding-right: 1vh;
-	border-right: 5px;
 	border-color: black;
 }
-#info:hover {
-	background-color: gray;
-}
-
 a-scene {
 	position: fixed;
 	left: 20%;
@@ -49,72 +60,153 @@ a-scene {
 ul {
 	padding: 0;
 	margin: 0;
-	margin-top: 10vh;
-	font-family: arial;
-	font-size: 20px;
+	margin-top: 10%;
 }
-
+.address {
+	font-size: 2.5rem;
+}
+.injuries {
+	font-size: 2.0rem;
+}
+.deaths {
+	font-size: 2.0rem;
+}
+.source {
+	font-size: 1.2rem;
+}
 /*Left List*/
 #left {
 	position: absolute;
 	z-index: 500;
-	width: 20%;
-	margin-top: 40px;
+	margin-left: -7%;
 }
 ul#llist > li {
 	list-style: none;
-	width: 100%;
 	transform: rotate(20deg);
-	height: 300px;
-	max-height: 300px;
-	text-align: right;
+	margin-bottom: 10%;
+	width: 55%;
 }
-#left img{
-	width: 220%;
-	margin-top: 5px;
-	margin-bottom: 25px;
-	margin-right: -20vh;
-	float: right;
-	z-index: 50000;
+.lemptyli {
+	background-color: #19191b;
+	height: 120px;
+}
+.ltextspacer {
+	background-color: #B22931;
+	text-align: right;
+	width: 170%;
 }
 .llitext {
-	background-color: #C7D6D5;
-	margin-left: -100px;
-	padding-left: 100px;
-	padding-right: 80px;
-	padding-top: 5px;
+	position: relative;
+	left: 18%;
+	background-color: #B22931;
+	height: 100%;
+	width: 80%;
 	padding-bottom: 5px;
-	border-radius: 40px;
 }
 
 /*Right List*/
 #right {
 	position: absolute;
-	left: 80%;
+	left: 81%;
 	z-index: 500;
 	width: 20%;
-	margin-top: 40px;
+	margin-top: 5%;
 }
 ul#rlist > li {
 	list-style: none;
-	width: 100%;
 	transform: rotate(20deg);
-	height: 300px;
-	max-height: 300px;
+	margin-bottom: 10%;
+	width: 200%;
 }
-#right img{
-	width: 220%;
-	margin-top: 5px;
-	margin-bottom: 25px;
-	margin-left: -25vh;
-	z-index: 50000;
+.remptyli {
+	background-color: #19191b;
+	height: 120px;
+}
+.rtextspacer {
+	background-color: #B22931;
+	width: 100%;
+	margin-left: -120px;
 }
 .rlitext {
-	background-color: aqua;
-	margin-right: -100px;
-	margin-left: -100px;
-	margin-left: -50px;
-	padding-left: 100px;
+	background-color: #B22931;
+	height: 55%;
+	width: 60%;
+	padding: 3px;
 }
 
+@media screen and (max-width: 1000px) {
+	.topbar {
+		font-size: 1.05rem;
+		height: 60px;
+	}
+	#location {
+		width: 15%;
+		padding-left: 5px;
+		text-align: center;
+	}
+	#topdata {
+		width: 70%;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	#info {
+		width: 15%;
+		font-family: 'Oswald', sans-serif;
+		text-align: center;
+	}
+	.vrwrapper {
+		
+	}
+	a-scene {
 
+	}
+	.address {
+		font-size: 1.3rem;
+	}
+	.injuries {
+		font-size: 1.0rem;
+	}
+	.deaths {
+		font-size: 1.0rem;
+	}
+	.source {
+		font-size: 0.8rem;
+	}
+	#left {
+		z-index: 500;
+		margin-top: 10%;
+		margin-left: -10%;
+	}
+	ul#llist > li {
+		list-style: none;
+		transform: rotate(20deg);
+		margin-bottom: 10%;
+		width: 40%;
+	}
+	.lemptyli {
+		background-color: #19191b;
+		height: 100px;
+	}
+	.ltextspacer {
+		background-color: #B22931;
+		text-align: right;
+	}
+	.llitext {
+		position: relative;
+		left: 40%;
+		background-color: #B22931;
+		height: 100%;
+		width: 70%;
+		padding-bottom: 5px;
+		padding-right: 5px;
+	}
+	#right {
+		left: 95%;
+		z-index: 500;
+		width: 20%;
+		margin-top: 5%;
+	}
+	.rtextspacer {
+		width: 80%;
+	}
+}	
