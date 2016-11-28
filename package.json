@@ -14,8 +14,11 @@
     "jsonfile": "^2.4.0",
     "node-geocoder": "^3.15.1",
     "node-open-geocoder": "^1.2.1",
+    "scrape": "^0.2.3",
+    "scrape-it": "^3.2.2",
     "search-google-geocode": "0.0.13",
     "socket.io": "^1.5.1",
+    "table-scraper": "0.0.2",
     "twit": "^2.2.5"
   }
 }

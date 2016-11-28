@@ -45,8 +45,7 @@
 									collada-model="#gun-dae"
 									position="0 0 0"
 									rotation="-90 -90 178"
-									scale="0.10 0.10 0.10"		 
-									material="src: url(assets/handgun-texture.png)">
+									scale="0.10 0.10 0.10">
 										<a-animation begin="shot"
 												attribute="rotation"
 												from="-90 -90 178"
@@ -76,7 +75,7 @@
 			/*Variable*/
 			var socket = io.connect("http://6310.lmc.gatech.edu:6010");
 			//var socket = io.connect(); /*Connecting to server causes sever to start parsing gun data.*/
-			var useStaticLocation = true; /*Set this to true to test multiple locations. I only use city, aadministrativeLevels.level1long and administrativeLevels.level2long so you only need to change those*/
+			var useStaticLocation = false; /*Set this to true to test multiple locations. I only use city, aadministrativeLevels.level1long and administrativeLevels.level2long so you only need to change those*/
 			var sound = document.getElementById("gunshot"); 
 			var debugStaticLocation = [
 				{ 
@@ -131,7 +130,10 @@
 				getGunData(data);
   		});
 			/**/
-			
+			socket.on('sendgundata', function(data) { /* Web scraping test*/
+				console.log(data);
+				console.log(data.data);
+  		});
 			
 			
 			

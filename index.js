@@ -15,8 +15,24 @@ app.use(express.static('public')); /*Lets me use static files*/
 /**/
 /*Reference to Admin loaded JSON*/
 var file = 'gundata.json';
+var gunData;
+var filewrite = 'data.json'
 /**/
 
+var scraper = require('table-scraper');
+scraper
+  .get('http://www.gunviolencearchive.org/last-72-hours')
+  .then(function(tableData) {
+		gunData = tableData;
+		/*
+		for(var i = 0; i < gunData.data.length; i++) {
+			jsonfile.writeFile(filewrite, gunData.data[i], function (err) {
+  			console.error(err);
+				console.log("done!");
+			});
+		}
+		*/
+  });
 
 
 /*Geocoder Setup*/
@@ -41,8 +57,9 @@ var userLocation;
 /*On connection we know the client needs gun data, so immidately parse that and pass it along*/
 io.on('connection', function(socket){ 
   console.log('a user connected');
-	
-	
+	io.emit('sendgundata', {
+		data: gunData
+	});
 	/*Gun Data Parsing*/
 	jsonfile.readFile(file, function(err, filedone) { 
 		io.emit('returndata', { /*passes parsed data object to client*/
