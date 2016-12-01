@@ -5,7 +5,6 @@ var incidentsUI = document.querySelector("#incidents");
 var injuriesUI = document.querySelector("#injuries");
 var deathsUI = document.querySelector("#deaths");
 var locationUI = document.querySelector("#location");
-var gun = document.querySelector("#gun");
 var leftList = document.querySelector("#llist");
 var rightList = document.querySelector("#rlist");
 var bulletsPlace = document.querySelector('#PutBulletsHere');
@@ -17,7 +16,10 @@ var countLocalDeaths = 0;
 var allIncidentsData;
 var flipFlop = false;
 var localIncidentsData = [];
-var ready = false;
+var tempLeftCount = 0;
+var tempRightCount = 0;
+var minToGenerate = 4;
+
 var bulletIncidents = [];
 var locationObject;
 var city = "City";
@@ -76,6 +78,7 @@ function displayData() {
 		generateIncidentCard(bulletIncidents[0]);
 		bulletIncidents.shift();
 	}
+	fillInLists();
 	loadingDone = true;
 }
 /**/
@@ -86,7 +89,7 @@ function ParseForLocalIncidents() {
 	var incidentParsed;
 	var tempKilledInjuredTotal;
 	for(var j = 0; j < allIncidentsData.data.length-1; j++) {
-		incidentParsed = allIncidentsData.data[j];
+		incidentParsed = parseIncident(allIncidentsData.data[j]);
 		//console.log("===Parsed Incident===");
 		//console.log(incidentParsed);
 		if (incidentParsed.State == state) {
@@ -104,6 +107,18 @@ function ParseForLocalIncidents() {
 		}
 	}	
 	gunDataReady = true;
+}
+function parseIncident(incident) { 
+	var incidentParsed = {
+		"Injured": incident["# Injured"],
+		"Killed": incident["# Killed"],
+		"Address": incident.Address,
+		"CityOrCounty": incident["City Or County"],
+		"incidentdate": incident["Incident Date"],
+		"Operations": incident.Operations,
+		"State": incident.State,
+	};
+	return incidentParsed;
 }
 /**/
 
@@ -161,6 +176,7 @@ function generateIncidentCard(incidentParsed) {
 		rightList.appendChild(emptyli);
 		
 		flipFlop = true;
+		tempLeftCount++;
 	}
 	else {
 		var li = document.createElement("li");
@@ -203,6 +219,21 @@ function generateIncidentCard(incidentParsed) {
 		emptyli.setAttribute("class", "lemptyli");
 		leftList.appendChild(emptyli);
 		flipFlop = false;
+		tempRightCount++;
+	}
+}
+function fillInLists(){
+	while (tempLeftCount < minToGenerate) {
+		var emptyli = document.createElement("li");
+		emptyli.setAttribute("class", "lemptyli");
+		leftList.appendChild(emptyli);
+		tempLeftCount++;
+	}
+	while (tempRightCount < minToGenerate) {
+		var emptyli = document.createElement("li");
+		emptyli.setAttribute("class", "remptyli");
+		rightList.appendChild(emptyli);
+		tempRightCount++;
 	}
 }
 

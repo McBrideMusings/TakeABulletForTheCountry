@@ -18,7 +18,7 @@ var file = 'gundata.json';
 var gunData;
 var filewrite = 'data.json'
 /**/
-
+/* Web SCraping
 var scraper = require('table-scraper');
 scraper
   .get('http://www.gunviolencearchive.org/last-72-hours')
@@ -31,8 +31,7 @@ scraper
 				console.log("done!");
 			});
 		}
-		*/
-  });
+  });*/
 
 
 /*Geocoder Setup*/
