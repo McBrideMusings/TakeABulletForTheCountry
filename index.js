@@ -27,10 +27,12 @@ app.use(express.static('public'));/*Lets me use static files*/
 
 
 /*===============Gun Incident Web Scraping===============*/
+/*I'm going to do my best to break down this code but I'd highly recommned looking at the code for http://www.gunviolencearchive.org/last-72-hours while reading it, as it's very specific to their formatting*/
 var gunData = []; /*Stores actual incident data as an array of objects*/
 var numofpages; /*Stores how mang pages of incidents gunviolencearchive has*/
 
 getNumPages();
+/*this code reads the URL for the "Last" button at the bottom of the page and uses that to decide how many times the for loop in getGunDatalogs should run.*/
 function getNumPages() {
 	request('http://www.gunviolencearchive.org/last-72-hours', function (error, response, html) {
 		if (!error && response.statusCode == 200) {
@@ -41,7 +43,10 @@ function getNumPages() {
 		getGunDatalogs();
 	});
 }
-function getGunDatalogs() {
+/*The Core of the code. Simply put, this chunk of code uses Cheerio to snag the text as it's formated on the gunviolencearchive last-72-hours pages. There's usually about 10 pages, and I wrote code that reads the button at the bottom that skips to the last page in order to know how many pages they have. I then wrote code that reads every row of each page and stores all of that as an array of objects.
+
+This is obviously extremely dependent on how they formatted their site, so if that ever changes this will almost certainly break.*/
+function getGunDatalogs() { 
 	console.log(numofpages);
 	for (var k = 0; k <= numofpages; k++) {
 		//console.log(k);
@@ -54,7 +59,8 @@ function getGunDatalogs() {
 		var tempSource;
 		var tempIncidentObj;
 
-		if (k === 0) {
+		/*the First page's URL is a little different, so that's a serperate conditional*/
+		if (k === 0) { 
 			request('http://www.gunviolencearchive.org/last-72-hours', function (error, response, html) {
 				var $ = cheerio.load(html);
 				//console.log(html);
@@ -103,6 +109,7 @@ function getGunDatalogs() {
 				});
 			});
 		}
+		/*this is the meat of the code. The URL below is how they formatted these pages. Frankly pretty easy to iterate through each page*/
 		else {
 			console.log('http://www.gunviolencearchive.org/last-72-hours?page=' + k);
 			request(('http://www.gunviolencearchive.org/last-72-hours?page=' + k), function (error, response, html) {

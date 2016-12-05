@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Gun Violence</title>
+		<title>Take a Bullet</title>
 		
 		
 		<!--AFrame-->
@@ -12,10 +12,8 @@
 		<!--JQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<!--SocketIO-->
-		<!--script src="https://cdn.socket.io/socket.io-1.4.5.js"></script-->
-		<script src="http://6310.lmc.gatech.edu:6010/js/socket.io-1.4.5.js"></script>
-		<!--K-Frame-->
-		<!--script src="https://rawgit.com/ngokevin/kframe/master/dist/kframe.min.js"></script-->
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<!--script src="http://6310.lmc.gatech.edu:6010/js/socket.io-1.4.5.js"></script-->
 		<!--Materialize-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
@@ -85,8 +83,8 @@
 		<script>
 			/*===============Socket Setup===============*/
 			/*Seems to be the most important part of the code. Socket is set up here. I have two lines for when I'm running on the GT server and when I'm running it locally*/
-			var socket = io.connect("http://6310.lmc.gatech.edu:6010");
-			//var socket = io.connect(); 
+			//var socket = io.connect("http://6310.lmc.gatech.edu:6010");
+			var socket = io.connect(); 
 			/*==============================*/
 			
 			/*===============Debug===============*/
