@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Gun Violence</title>
 		
+		
 		<!--AFrame-->
 		<script src="https://rawgit.com/aframevr/aframe/master/dist/aframe.min.js"></script>
 		<!--Stylesheet-->
@@ -11,16 +12,20 @@
 		<!--JQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<!--SocketIO-->
-		<!--script src="https://cdn.socket.io/socket.io-1.4.5.js"></script-->
-		<script src="http://6310.lmc.gatech.edu:6010/js/socket.io-1.4.5.js"></script>
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<!--script src="http://6310.lmc.gatech.edu:6010/js/socket.io-1.4.5.js"></script-->
 		<!--K-Frame-->
-		<script src="https://rawgit.com/ngokevin/kframe/master/dist/kframe.min.js"></script>
+		<!--script src="https://rawgit.com/ngokevin/kframe/master/dist/kframe.min.js"></script-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+		
 	</head>
 	<body>
-		<div id="loadingblocker"></div>
+		<!--div id="loadingblocker"></div-->
 		<div class="topbar">
 			<div id="location">
-				<span>City, State</span>
+				<a class='dropdown-button btn' href='#' data-activates='dropdown1'>City, State</a>
+				<!--span>City, State</span-->
 			</div>
 			<div id="topdata">
 				<span id="incidents">0 incidents,</span>
@@ -30,12 +35,13 @@
 			</div>
 			<div id="info"><a href="about.html">About</a></div>
 		</div>
-		<div class="vrwrapper">
+		<div class="vrwrapper"> 
 			<div id="left">
-				<ul id="llist">
+				<ul id="llist"> <!--Left List of Incident Cards-->
+					
 				</ul> 
 			</div>
-			<a-scene embedded>
+			<a-scene embedded> <!--A-Frame Scene is embedded to use more HTML/CSS-->
 				<a-assets>
 					<a-asset-item id="gun-dae" src="assets/gunColladaVersion.dae"></a-asset-item>
 					<a-asset-item id="bullet-dae" src="assets/Bullet.dae"></a-asset-item>
@@ -55,28 +61,35 @@
 												direction="alternate"
 												repeat="1"></a-animation>
 				</a-collada-model>
-				<a-entity id="PutBulletsHere">
+				<a-entity id="PutBulletsHere"> <!--Generated Bullets are placed here-->
 					
 				</a-entity>
 				<a-sky color="#6a2a28"></a-sky>
-				<a-camera position="0 -1.6 1" look-controls="enabled: false" wasd-controls="enabled: false"></a-camera>
+				<a-camera position="0 -1.6 1" look-controls="enabled: false" wasd-controls="enabled: false"></a-camera> <!--Camera locked for Aesthetics-->
 			</a-scene>
 			<div id="right">
-				<ul id="rlist">
+				<ul id="rlist"> <!--Right List of Incident Cards-->
 					
 				</ul> 
 			</div>
 		</div>
-		<!--audio id="gunshot">
-			<source src="assets/Gunshot.mp3"></source>
-		</audio-->
+		<ul id='dropdown1' class='dropdown-content' hover='true'>
+			<li><a href="#!">Your Location</a></li>
+    	<li><a href="#!">Chicago, Illinois</a></li>
+    	<li><a href="#!">New York, New York</a></li>
+    	<li><a href="#!">Los Angeles, California</a></li>
+  	</ul>
 		<script type="text/javascript" src="js/Generate.js"></script>
-		<script>
-			/*Variable*/
+		<script type="text/javascript">
+			/*===============Socket Setup===============*/
+			/*Seems to be the most important part of the code. Socket is set up here. I have two lines for when I'm running on the GT server and when I'm running it locally*/
 			var socket = io.connect("http://6310.lmc.gatech.edu:6010");
-			//var socket = io.connect(); /*Connecting to server causes sever to start parsing gun data.*/
-			var useStaticLocation = false; /*Set this to true to test multiple locations. I only use city, aadministrativeLevels.level1long and administrativeLevels.level2long so you only need to change those*/
-			var sound = document.getElementById("gunshot"); 
+			//var socket = io.connect(); 
+			/*==============================*/
+			
+			/*===============Debug===============*/
+			/*Set useStaticLocation to true to test multiple locations. I only use city, aadministrativeLevels.level1long and administrativeLevels.level2long so you only need to change those*/
+			var useStaticLocation = false; 
 			var debugStaticLocation = [
 				{ 
 				formattedAddress: '650 West Aldine Ave, Chicago, IL 60657, USA',
@@ -102,13 +115,15 @@
 				zipcode: '60657',
 				provider: 'google' } 
 			];
-			/**/
+			/*==============================*/
 			
-			/*ON DOCUMENT LOAD CODE*/
+			/*===============ON DOCUMENT LOAD CODE===============*/
+			/*When a connection is established sendgundata is immidiately emitted by the server and picked up here. As long as the client isn't trying to connect literally while the server boots up the data is always scaped by the time a client makes a connection. Web scraping only takes 5ish seconds.*/
+			/*Document.ready starts two functions in Generate.js that sit and wait for both all data to be gathered and stored within it.*/
 			$(document).ready(function() {
-				WaitToParseData();
-				WaitToDisplayData();
+				start();
 			});
+			/*loading is just my looping timeout function for loading. Calls Fadeout when all gun data and location data is generated and parsed*/
 			function loading() {
 				if (loadingDone) { 
 					fadeout();
@@ -117,46 +132,42 @@
 				}
 			}
 			function fadeout(){
-				/*while(bulletIterator > 0) {
-					setTimeout("sound.play();", 200000);
-					bulletIterator--;
-					console.log("loopin'");
-				}*/
 				$( "#loadingblocker" ).fadeOut( "slow" );
 			}
-			/*GUN INCIDENT DATA CODE*/
-			socket.on('returndata', function(data) { /* This is called when the JSON data is processed and passed by the server*/
-				//console.log(data);
-				getGunData(data);
-  		});
-			/**/
-			socket.on('sendgundata', function(data) { /* Web scraping test*/
+			/*Here's the function called by sendgundata. It's all of it, usually about 250 entries*/
+			socket.on('sendgundata', function(data, number) { /* Web scraping test*/
+				console.log(number);
 				console.log(data);
-				console.log(data.data);
+				setGunData(data);
   		});
 			
 			
 			
-			/*GELOCATION CODE*/
+			/*This code handles the navigator object on the client side. It first checks and sees if it's supposed to just use the debug location. Then it checks for compatibility errors. The passes the Lat/Lng to the server for API checking*/
 			if (useStaticLocation) {
 				getLocationData(debugStaticLocation[0]);
 			}
-			else if (!navigator.geolocation) { /*Checks if the browser can get is location on load*/
+			/*Checks if the browser can get is location on load*/
+			else if (!navigator.geolocation) { 
 				console.log("Geolocation is not supported by your browser");
     	}
-			else { /*If it can, the navigator starts the process of getting the player's location*/
+			/*If it can, the navigator starts the process of getting the player's location*/
+			else { 
 				navigator.geolocation.getCurrentPosition(success, error);
 			}
-			function success(position) { /*If sucessful, print that out to the console and pass that data to the server*/
+			/*If sucessful, print that out to the console and pass that data to the server*/
+			function success(position) { 
 					var lat = position.coords.latitude;
 					var lng = position.coords.longitude;
 					console.log('Latitude is ' + lat + ' Longitude is ' + lng)
+					/*Here the Lat/Lng is actaully sent to the server via socket*/
 					socket.emit('passLoc', {
 						latitude: lat,
 						longitude: lng
 					});
 			};
-			function error(error) { /*If Unsucessful, tell us why.*/
+			/*If Unsucessful, tell us why.*/
+			function error(error) { 
 					switch(error.code) {
 					case error.PERMISSION_DENIED:
 							//output.innerHTML = "User denied the request for Geolocation."
@@ -176,11 +187,13 @@
 							break;
 					}
 			};
-			socket.on('passbackLoc', function(results) { /*This is called when the users location is returned from Google Maps*/
-				getLocationData(results.results[0]);
+			/*Here's the event called when the server has figured out where the client is. results is a big location js object*/
+			socket.on('passbackLoc', function(results) { 
+				setLocationData(results.results[0]);
   		});
+			
+			/*I start the timeout function wating for loading to finish here. I honestly don't know if it NEEDS to be here though*/
 			loading();
-			/**/
 		</script>
 	</body>
 </html>

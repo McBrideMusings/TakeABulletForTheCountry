@@ -1,24 +1,19 @@
 {
-  "name": "twitter-streaming",
+  "name": "TakeABullet",
   "version": "1.0.0",
-  "description": "twitter streaming app",
+  "description": "A Web Remediation of 'Take A Bullet For The City'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "babyparse": "^0.4.6",
     "express": "^4.14.0",
     "jsonfile": "^2.4.0",
+    "mysql": "^2.12.0",
     "node-geocoder": "^3.15.1",
-    "node-open-geocoder": "^1.2.1",
-    "scrape": "^0.2.3",
-    "scrape-it": "^3.2.2",
-    "search-google-geocode": "0.0.13",
     "socket.io": "^1.5.1",
-    "table-scraper": "0.0.2",
-    "twit": "^2.2.5"
+    "table-scraper": "0.0.2"
   }
 }
