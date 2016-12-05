@@ -12,10 +12,11 @@
 		<!--JQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<!--SocketIO-->
-		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
-		<!--script src="http://6310.lmc.gatech.edu:6010/js/socket.io-1.4.5.js"></script-->
+		<!--script src="https://cdn.socket.io/socket.io-1.4.5.js"></script-->
+		<script src="http://6310.lmc.gatech.edu:6010/js/socket.io-1.4.5.js"></script>
 		<!--K-Frame-->
 		<!--script src="https://rawgit.com/ngokevin/kframe/master/dist/kframe.min.js"></script-->
+		<!--Materialize-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
 		
@@ -23,10 +24,17 @@
 	<body>
 		<!--div id="loadingblocker"></div-->
 		<div class="topbar">
-			<div id="location">
-				<a class='dropdown-button btn' href='#' data-activates='dropdown1'>City, State</a>
-				<!--span>City, State</span-->
-			</div>
+			<div id="dropdownwrap">
+				<a class="dropdown-button btn" href="#" data-activates="dropdown1" id="location">City, State</a>
+				<ul id="dropdown1" class="dropdown-content" hover="true">
+					<li><a id="city">Your City</a></li>
+					<li><a id="state">Your State</a></li>
+					<li><a id="chicago">Chicago, Michigan</a></li>
+					<li><a id="detroit">Detroit, Michigan</a></li>
+					<li><a id="oakland">Oakland, California</a></li>
+				</ul>
+			</div>	
+			<!--span>City, State</span-->
 			<div id="topdata">
 				<span id="incidents">0 incidents,</span>
 				<span id="injuries">0 injuries,</span>
@@ -38,7 +46,7 @@
 		<div class="vrwrapper"> 
 			<div id="left">
 				<ul id="llist"> <!--Left List of Incident Cards-->
-					
+
 				</ul> 
 			</div>
 			<a-scene embedded> <!--A-Frame Scene is embedded to use more HTML/CSS-->
@@ -69,18 +77,12 @@
 			</a-scene>
 			<div id="right">
 				<ul id="rlist"> <!--Right List of Incident Cards-->
-					
+
 				</ul> 
 			</div>
 		</div>
-		<ul id='dropdown1' class='dropdown-content' hover='true'>
-			<li><a href="#!">Your Location</a></li>
-    	<li><a href="#!">Chicago, Illinois</a></li>
-    	<li><a href="#!">New York, New York</a></li>
-    	<li><a href="#!">Los Angeles, California</a></li>
-  	</ul>
 		<script type="text/javascript" src="js/Generate.js"></script>
-		<script type="text/javascript">
+		<script>
 			/*===============Socket Setup===============*/
 			/*Seems to be the most important part of the code. Socket is set up here. I have two lines for when I'm running on the GT server and when I'm running it locally*/
 			var socket = io.connect("http://6310.lmc.gatech.edu:6010");
@@ -117,6 +119,22 @@
 			];
 			/*==============================*/
 			
+			
+			$( "#city" ).click(function() {
+  			startUserInitiated(locationObject.city, locationObject.administrativeLevels.level1long, locationObject.administrativeLevels.level2long)
+			});
+			$( "#state" ).click(function() {
+  			startUserInitiatedStatewide()
+			});
+			$( "#chicago" ).click(function() {
+  			startUserInitiated("Chicago", "Illinois", "Cook County")
+			});
+			$( "#detroit" ).click(function() {
+  			startUserInitiated("Detroit", "Michigan", "Wayne County")
+			});
+			$( "#oakland" ).click(function() {
+  			startUserInitiated("Oakland", "California", "Alameda County")
+			});
 			/*===============ON DOCUMENT LOAD CODE===============*/
 			/*When a connection is established sendgundata is immidiately emitted by the server and picked up here. As long as the client isn't trying to connect literally while the server boots up the data is always scaped by the time a client makes a connection. Web scraping only takes 5ish seconds.*/
 			/*Document.ready starts two functions in Generate.js that sit and wait for both all data to be gathered and stored within it.*/
@@ -134,15 +152,15 @@
 			function fadeout(){
 				$( "#loadingblocker" ).fadeOut( "slow" );
 			}
+			function fadein(){
+				$( "#loadingblocker" ).fadeIn( "slow" );
+				loading();
+			}
 			/*Here's the function called by sendgundata. It's all of it, usually about 250 entries*/
 			socket.on('sendgundata', function(data, number) { /* Web scraping test*/
-				console.log(number);
 				console.log(data);
 				setGunData(data);
   		});
-			
-			
-			
 			/*This code handles the navigator object on the client side. It first checks and sees if it's supposed to just use the debug location. Then it checks for compatibility errors. The passes the Lat/Lng to the server for API checking*/
 			if (useStaticLocation) {
 				getLocationData(debugStaticLocation[0]);
@@ -191,7 +209,6 @@
 			socket.on('passbackLoc', function(results) { 
 				setLocationData(results.results[0]);
   		});
-			
 			/*I start the timeout function wating for loading to finish here. I honestly don't know if it NEEDS to be here though*/
 			loading();
 		</script>

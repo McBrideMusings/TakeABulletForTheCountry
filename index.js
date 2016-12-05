@@ -19,7 +19,7 @@ http.listen(6010, function () { /*Start Listening on perscribed port and log it*
 app.get('/', function (req, res) {
 	res.sendFile(__dirname + '/public/index.html');
 });
-app.use(express.static('/public/'));/*Lets me use static files*/
+app.use(express.static('public'));/*Lets me use static files*/
 /*====================================================================*/
 
 
@@ -75,9 +75,11 @@ function getGunDatalogs() {
 								break;
 							case 4:
 								tempKilled = $(this).text();
+								tempKilled = Number(tempKilled);
 								break;
 							case 5:
 								tempInjured = $(this).text();
+								tempInjured = Number(tempInjured);
 								break;
 							case 6:
 								tempSource = $('li.1.last', this).children('a').attr('href');

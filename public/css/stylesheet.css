@@ -6,7 +6,6 @@ html {
 }
 body {
 	margin: 0;
-	background-color: ;
 	background-color: #6a2a28;
 }
 a {
@@ -35,20 +34,74 @@ a {
 	color: #181818;
 	background-color: #B22931;
 }
-#location {
+#dropdownwrap {
 	width: 20%;
-	padding-left: 5px;
+	padding-right: 5px;
 	text-align: center;
 }
+#location {
+	width: 100%;
+	margin: auto;
+	padding-left: 5px;
+	font-size: 1.25rem;
+}
+.dropdown-content {
+  background-color: #B22931;
+	color: black;
+  margin: 0;
+  display: none;
+  min-width: 200px;
+  max-height: 650px;
+  overflow-y: auto;
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  will-change: width, height;
+}
+.dropdown-content li {
+  clear: both;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  min-height: 50px;
+  line-height: 1.5rem;
+  width: 200px;
+  text-align: left;
+  text-transform: none;
+}
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+  background-color: rgba(70, 70, 70, 0.2);
+}
+.dropdown-content li.divider {
+  min-height: 0;
+  height: 1px;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: #01ffff;
+	text-decoration: underline;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+.dropdown-content li > span > label {
+  top: 1px;
+  left: 0;
+  height: 18px;
+}
+.dropdown-content li > a > i {
+  height: inherit;
+  line-height: inherit;
+}
 #topdata {
-	width: 60%;
+	width: 80%;
 	text-align: center;
 }
 #info {
-	width: 20%;
+	width: 26%;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	border-color: black;
+	font-size: 1.25rem;
 }
 a-scene {
 	position: fixed;
@@ -62,6 +115,14 @@ ul {
 	margin: 0;
 	margin-top: 10%;
 }
+.fillerli{
+	background-color: #19191b;
+	height: 120px;
+	color: dimgrey; 
+}
+.citystate {
+	font-size: 1.3rem;
+}
 .address {
 	font-size: 2.5rem;
 }
@@ -74,18 +135,43 @@ ul {
 .source {
 	font-size: 1.2rem;
 }
+.fillercitystate{
+	font-size: 0.8rem;
+}
+.filleraddress{
+	font-size: 1.0rem;
+}
+.fillerinjuries {
+	font-size: 0.8rem;
+}
+.fillerdeaths {
+	font-size: 0.8rem;
+}
+.fillersource {
+	font-size: 0.7rem;
+}
 /*Left List*/
 #left {
 	position: absolute;
 	z-index: 500;
-	margin-left: -7%;
+	margin-left: -1%;
 }
-ul#llist > li {
+ul#llist >  li {
 	list-style: none;
+	margin-bottom: 15%;
 	transform: rotate(20deg);
-	margin-bottom: 10%;
-	width: 55%;
+}
+ul#llist > .fullli {
+	width: 100%;
 	min-width: 250px;
+	margin-left: -80%;
+	margin-top: -80px;
+}
+ul#llist > .fillerli {
+	width: 100%;
+	min-width: 300px;
+	margin-left: -60%;
+	padding-bottom: 5px;
 }
 .lemptyli {
 	background-color: #19191b;
@@ -94,16 +180,28 @@ ul#llist > li {
 .ltextspacer {
 	background-color: #B22931;
 	text-align: right;
-	width: 170%;
+	width: 140%;
 }
 .llitext {
 	position: relative;
-	left: 18%;
+	text-align: right;
+	left: 39%;
 	background-color: #B22931;
+	height: 100%;
+	width: 60%;
+	padding-bottom: 5px;
+}
+.lfillertextspacer{
+	text-align: right;
+}
+.lfillerlitext {
+	position: relative;
+	left: 18%;
 	height: 100%;
 	width: 80%;
 	padding-bottom: 5px;
 }
+
 
 /*Right List*/
 #right {
@@ -117,11 +215,15 @@ ul#rlist > li {
 	list-style: none;
 	transform: rotate(20deg);
 	margin-bottom: 10%;
+	white-space: nowrap;
+}
+ul#rlist > .fullli {
 	width: 200%;
 }
-.remptyli {
-	background-color: #19191b;
-	height: 120px;
+ul#rlist > .fillerli {
+	width: 200%;
+	min-width: 300px;
+	padding-bottom: 5px;
 }
 .rtextspacer {
 	background-color: #B22931;
@@ -134,16 +236,25 @@ ul#rlist > li {
 	width: 60%;
 	padding: 3px;
 }
+.rfillertextspacer{
+	width: 100%;
+}
+.rfillerlitext {
+	width: 60%;
+	padding-left: 5px;
+	padding-top: 0px;
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
 	.topbar {
-		font-size: 1.05rem;
+		font-size: 1.15rem;
 		height: 60px;
 	}
 	#location {
 		width: 15%;
 		padding-left: 5px;
 		text-align: center;
+		font-size: 1.05rem;
 	}
 	#topdata {
 		width: 70%;
@@ -154,13 +265,11 @@ ul#rlist > li {
 		width: 15%;
 		font-family: 'Oswald', sans-serif;
 		text-align: center;
+		font-size: 1.15rem;
 	}
-	.vrwrapper {
-		
-	}
-	a-scene {
+}
 
-	}
+@media screen and (max-width: 1000px) {
 	.address {
 		font-size: 1.3rem;
 	}
@@ -173,342 +282,61 @@ ul#rlist > li {
 	.source {
 		font-size: 0.8rem;
 	}
-	#left {
-		z-index: 500;
-		margin-top: 10%;
-		margin-left: -10%;
+	.fillercitystate{
+		font-size: 0.5rem;
 	}
-	ul#llist > li {
-		list-style: none;
-		transform: rotate(20deg);
-		margin-bottom: 10%;
-		width: 40%;
+	.filleraddress{
+		font-size: 0.8rem;
 	}
-	.lemptyli {
-		background-color: #19191b;
-		height: 100px;
+	.fillerinjuries {
+		font-size: 0.6rem;
 	}
-	.ltextspacer {
-		background-color: #B22931;
-		text-align: right;
+	.fillerdeaths {
+		font-size: 0.6rem;
 	}
-	.llitext {
-		position: relative;
-		left: 40%;
-		background-color: #B22931;
-		height: 100%;
-		width: 70%;
+	.fillersource {
+		font-size: 0.5rem;
+	}
+	/*Left List*/
+	ul#llist > .fullli {
+		width: 100%;
+		min-width: 250px;
+		margin-left: -60%;
+		margin-top: -10%;
+	}
+	ul#llist > .fillerli {
+		width: 100%;
+		min-width: 250px;
+		margin-left: -45%;
 		padding-bottom: 5px;
-		padding-right: 5px;
 	}
-	#right {
-		left: 95%;
-		z-index: 500;
-		width: 20%;
-		margin-top: 5%;
+	/*Right List*/
+	ul#rlist > .fullli {
+		width: 200%;
+		margin-right: -20%;
+	}
+	ul#rlist > .fillerli {
+		width: 200%;
+		min-width: 300px;
+		padding-bottom: 5px;
 	}
 	.rtextspacer {
-		width: 80%;
+		background-color: #B22931;
+		width: 100%;
+		margin-left: -90px;
+	}
+	.rlitext {
+		background-color: #B22931;
+		height: 55%;
+		width: 60%;
+		padding: 3px;
+	}
+	.rfillertextspacer{
+		width: 100%;
+	}
+	.rfillerlitext {
+		width: 60%;
 	}
 }
 
-
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-}
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
-button {
-  overflow: visible;
-}
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-button,
-select {
-  text-transform: none;
-}
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */
-}
-
-/**
- * Re-set default cursor for disabled elements.
- */
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-input {
-  line-height: normal;
-}
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  box-sizing: content-box;
-  /* 2 */
-}
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * Define consistent border, margin, and padding.
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
-textarea {
-  overflow: auto;
-}
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-optgroup {
-  font-weight: bold;
-}
-.input-field {
-  position: relative;
-  margin-top: 1rem;
-}
-
-.input-field.inline {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
-.input-field.inline input,
-.input-field.inline .select-dropdown {
-  margin-bottom: 1rem;
-}
-
-.input-field.col label {
-  left: 0.75rem;
-}
-
-.input-field.col .prefix ~ label,
-.input-field.col .prefix ~ .validate ~ label {
-  width: calc(100% - 3rem - 1.5rem);
-}
-
-.input-field label {
-  color: #9e9e9e;
-  position: absolute;
-  top: 0.8rem;
-  left: 0;
-  font-size: 1rem;
-  cursor: text;
-  transition: .2s ease-out;
-}
-
-.input-field label.active {
-  font-size: 0.8rem;
-  -webkit-transform: translateY(-140%);
-          transform: translateY(-140%);
-}
-
-.input-field .prefix {
-  position: absolute;
-  width: 3rem;
-  font-size: 2rem;
-  transition: color .2s;
-}
-
-.input-field .prefix.active {
-  color: #26a69a;
-}
-
-.input-field .prefix ~ input,
-.input-field .prefix ~ textarea,
-.input-field .prefix ~ label,
-.input-field .prefix ~ .validate ~ label,
-.input-field .prefix ~ .autocomplete-content {
-  margin-left: 3rem;
-  width: 92%;
-  width: calc(100% - 3rem);
-}
-
-.input-field .prefix ~ label {
-  margin-left: 3rem;
-}
-
-@media only screen and (max-width: 992px) {
-  .input-field .prefix ~ input {
-    width: 86%;
-    width: calc(100% - 3rem);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .input-field .prefix ~ input {
-    width: 80%;
-    width: calc(100% - 3rem);
-  }
-}
-
-.dropdown-content {
-  background-color: #fff;
-  margin: 0;
-  display: none;
-  min-width: 100px;
-  max-height: 650px;
-  overflow-y: auto;
-  opacity: 0;
-  position: absolute;
-  z-index: 999;
-  will-change: width, height;
-}
-
-.dropdown-content li {
-  clear: both;
-  color: rgba(0, 0, 0, 0.87);
-  cursor: pointer;
-  min-height: 50px;
-  line-height: 1.5rem;
-  width: 100%;
-  text-align: left;
-  text-transform: none;
-}
-
-.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
-  background-color: #eee;
-}
-
-.dropdown-content li.active.selected {
-  background-color: #e1e1e1;
-}
-
-.dropdown-content li.divider {
-  min-height: 0;
-  height: 1px;
-}
-
-.dropdown-content li > a, .dropdown-content li > span {
-  font-size: 16px;
-  color: #26a69a;
-  display: block;
-  line-height: 22px;
-  padding: 14px 16px;
-}
-
-.dropdown-content li > span > label {
-  top: 1px;
-  left: 0;
-  height: 18px;
-}
-
-.dropdown-content li > a > i {
-  height: inherit;
-  line-height: inherit;
-}
 

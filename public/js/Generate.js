@@ -15,44 +15,83 @@ var bulletsPlace = document.querySelector('#PutBulletsHere');
 
 
 /*===============Initilize any variable I'll be using===============*/
+/*These first two variables should never be overwritten after they're set. They're the raw data basically*/
 var masterIncidentsList; /*All the scraped web data.*/
+var locationObject; /*All Location Data*/
+
+/*This data is reset by the client's actions*/
+var city = "City";
+var state = "State";
+var county = "County";
+
+/*All of this data is reset to default the client picks a new location*/
 var countMatchedIncidents = 0; 
 var countMatchedInjuries = 0;
 var countMatchedDeaths = 0;
 var matchedIncidentsList = []; /*All incidents that occured in current query*/
 var unmatchedIncidentsList = []; /*All incidents that didn't occur in current query*/
-
-
-var leftListCount = 0;
-var rightListCount = 0;
-var minToGenerate = 4;
 var flipFlop = false;
-var bulletIncidents = [];
-var locationObject;
-var city = "City";
-var state = "State";
-var county = "County";
 var locationReady = false;
 var matchedIncidentsListReady = false;
-var hasDisplayedData = false;
 var loadingDone = false;
+
+var statewide = false;
 /*==============================*/
 function start() {
+	console.log("==Start==");
+	statewide = false;
+	clearHTMLLists();
 	WaitToParseData();
 	WaitToDisplayData();
 }
-function startUserInitiated(city, state) {
-	/*TODO
-	Clear out all relevent variables
-	set city and state to be whatever the player entered
-	Do all code again
-	*/
+function startUserInitiated(cityNew, stateNew, countyNew) {
+	countMatchedIncidents = 0; 
+	countMatchedInjuries = 0;
+	countMatchedDeaths = 0;
+	matchedIncidentsList = []; /*All incidents that occured in current query*/
+	unmatchedIncidentsList = []; /*All incidents that didn't occur in current query*/
+	flipFlop = false;
+	locationReady = true; /*Location is prdetermined so this is set to true.*/
+	matchedIncidentsListReady = false;
+	loadingDone = false;
+	statewide = false;
+	/*Set all of the location data. We're skipping the locationObject because in most cases this data is preset*/
+	city = cityNew;
+	state = stateNew;
+	county = countyNew;
+	
+	clearHTMLLists();
+	fadein();
 	ParseForLocalIncidents();
 	WaitToDisplayData();
 }
-
-
-
+function startUserInitiatedStatewide() {
+	countMatchedIncidents = 0; 
+	countMatchedInjuries = 0;
+	countMatchedDeaths = 0;
+	matchedIncidentsList = []; /*All incidents that occured in current query*/
+	unmatchedIncidentsList = []; /*All incidents that didn't occur in current query*/
+	flipFlop = false;
+	locationReady = true; /*Location is prdetermined so this is set to true.*/
+	matchedIncidentsListReady = false;
+	loadingDone = false;
+	statewide = true;
+	/*Set all of the location data. We're skipping the locationObject because in most cases this data is preset*/
+	city = "";
+	state = locationObject.administrativeLevels.level1long;
+	county = "";
+	
+	clearHTMLLists();
+	fadein();
+	ParseForLocalIncidents();
+	WaitToDisplayData();
+}
+/*Clears out the two lists and the bullets. UI text is overwritten anyway*/
+function clearHTMLLists(){
+	leftList.innerHTML = "";
+	rightList.innerHTML = "";
+	bulletsPlace.innerHTML = "";
+}
 
 /*===============Wait Phase===============*/
 /*Parse Requires City Data, otherwise how would I know which data to display*/
@@ -66,7 +105,7 @@ function WaitToParseData() {
 /**/
 /*Waits for all incidents to be matched before proceeding to the display step*/
 function WaitToDisplayData(){
-	if (gunDataReady) { 
+	if (matchedIncidentsListReady) { 
         displayData();
     } else {
         setTimeout( WaitToDisplayData, 250 );
@@ -92,20 +131,41 @@ function setLocationData(results) {
 /*Setter functions are called when data is passed from the server to the client, starting at the index.html page.*/
 function ParseForLocalIncidents() {
 	var tempIncident;
-	for(var j = 0; j < allIncidentsData.data.length-1; j++) {
-		tempIncident = allIncidentsData.data[j];
-		if (tempIncident.State == state && (tempIncident.CityOrCounty.includes(city) || tempIncident.CityOrCounty === county)) {
-			countLocalIncidents++;
-			matchedIncidentsList.push(tempIncident);
-			//bulletIncidents.push(tempIncident);
-			countLocalInjuries += tempIncident.Injured;
-			countLocalDeaths += tempIncident.Killed;
+	console.log("==ParseForLocalIncidents==");
+	for(var j = 0; j < masterIncidentsList.data.length-1; j++) {
+		tempIncident = masterIncidentsList.data[j];
+		if (tempIncident.State === state) {
+			if (statewide === true) {
+				countMatchedIncidents++;
+				matchedIncidentsList.push(tempIncident);
+				//bulletIncidents.push(tempIncident);
+				console.log(tempIncident.Injured);
+				console.log(tempIncident.Killed);
+				countMatchedInjuries += Number(tempIncident.Injured);
+				countMatchedDeaths += Number(tempIncident.Killed);
+			}
+			else if (tempIncident.CityOrCounty.includes(city) || tempIncident.CityOrCounty === county) {
+				countMatchedIncidents++;
+				matchedIncidentsList.push(tempIncident);
+				//bulletIncidents.push(tempIncident);
+				console.log(tempIncident.Injured);
+				console.log(tempIncident.Killed);
+				countMatchedInjuries += Number(tempIncident.Injured);
+				countMatchedDeaths += Number(tempIncident.Killed);
+			}
 		}
 		else {
-			matchedIncidentsList.push(tempIncident);
+			unmatchedIncidentsList.push(tempIncident);
 		}
 	}	
+	console.log("====Matched List====");
+	console.log(matchedIncidentsList);
+	console.log("Incidents,Injuries,Deaths");
+	console.log(countMatchedIncidents);
+	console.log(countMatchedInjuries);
+	console.log(countMatchedDeaths);
 	matchedIncidentsListReady = true;
+	console.log("======");
 }
 /*==============================*/
 
@@ -113,45 +173,54 @@ function ParseForLocalIncidents() {
 
 
 /*===============Display Phase===============*/
-/**/
 function displayData() {
-	clearOldDisplay();
 	/*Sets all the UI Text*/
-	locationUI.innerHTML = city + ", " + state;
-	incidentsUI.innerHTML = countLocalIncidents + " incidents, ";
-	injuriesUI.innerHTML = countLocalInjuries + " injures, ";
-	deathsUI.innerHTML = countLocalDeaths + " deaths ";
+	if (statewide === true) {
+		locationUI.innerHTML = state;
+	}
+	else {
+		locationUI.innerHTML = city + ", " + state;
+	}
+	incidentsUI.innerHTML = countMatchedIncidents + " incidents, ";
+	injuriesUI.innerHTML = countMatchedInjuries + " injuries, ";
+	deathsUI.innerHTML = countMatchedDeaths + " deaths ";
 	/*Creates the Bullets in a sphere*/
 	var i = 0;
-	while (i < countLocalInjuries + countLocalDeaths) {
+	while (i < countMatchedInjuries + countMatchedDeaths) {
 		generateBullet();
 		i++;
 	}
-	while (bulletIncidents.length > 0) {
-		if (flipFlop == false) {
+	console.log("About to Generate");
+	while (matchedIncidentsList.length > 0) {
+		console.log(matchedIncidentsList[0]);
+		if (flipFlop === false) {
 			generateLeftIncidentCard(matchedIncidentsList[0]);
 			generateRightFillerCard(unmatchedIncidentsList[0]);
 			flipFlop = true;
-			leftListCount++;
 		}
 		else {
 			generateRightIncidentCard(matchedIncidentsList[0]);
 			generateLeftFillerCard(unmatchedIncidentsList[0]);
 			flipFlop = false;
-			rightListCount++;
 		}
 		matchedIncidentsList.shift();
 		unmatchedIncidentsList.shift();
 	}
+	while (unmatchedIncidentsList.length > 0) {
+		if (flipFlop === false) {
+			generateRightFillerCard(unmatchedIncidentsList[0]);
+			flipFlop = true;
+		}
+		else {
+			generateLeftFillerCard(unmatchedIncidentsList[0]);
+			flipFlop = false;
+		}
+		unmatchedIncidentsList.shift();
+	}
+	console.log("loadingDone");
 	loadingDone = true;
 }
 /*===============Display Functions===============*/
-/*Clears out the two lists and the bullets. UI text is overwritten anyway*/
-function clearOldDisplay() {
-	leftList.innerHTML = "";
-	rightList.innerHTML = "";
-	bulletsPlace.innerHTML = "";
-}
 /*Generate Incident Cards on the Left-hand side*/
 function generateLeftIncidentCard(incident) {
 	var li = document.createElement("li");
@@ -160,12 +229,18 @@ function generateLeftIncidentCard(incident) {
 	spacerdiv.setAttribute("class", "ltextspacer");
 	var div = document.createElement("div");
 	div.setAttribute("class", "llitext");
+	var span0 = document.createElement("span");
+	span0.setAttribute("class", "citystate");	
+	span0.appendChild(document.createTextNode(incident.CityOrCounty + ", " + incident.State));
 	var span1 = document.createElement("span");
-	span1.setAttribute("class", "address");	span1.appendChild(document.createTextNode(incident.Address));
+	span1.setAttribute("class", "address");	
+	span1.appendChild(document.createTextNode(incident.Address));
 	var span2 = document.createElement("span");
-	span2.setAttribute("class", "injuries");	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
+	span2.setAttribute("class", "injuries");	
+	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
 	var span3 = document.createElement("span");
-	span3.setAttribute("class", "deaths");	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
+	span3.setAttribute("class", "deaths");	
+	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
 	var span4 = document.createElement("span");
 	span4.setAttribute("class", "source");
 	var a = document.createElement("a");
@@ -174,6 +249,8 @@ function generateLeftIncidentCard(incident) {
 	a.appendChild(document.createTextNode("Source"));
 	span4.appendChild(a);
 
+	div.appendChild(span0);
+	div.appendChild(document.createElement("br"));
 	div.appendChild(span1);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span2);
@@ -181,7 +258,7 @@ function generateLeftIncidentCard(incident) {
 	div.appendChild(span3);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span4);
-	spacerdiv.appendChild(div)
+	spacerdiv.appendChild(div);
 	li.appendChild(spacerdiv);
 
 	leftList.appendChild(li);
@@ -193,6 +270,9 @@ function generateLeftFillerCard(incident) {
 	spacerdiv.setAttribute("class", "lfillertextspacer");
 	var div = document.createElement("div");
 	div.setAttribute("class", "lfillerlitext");
+	var span0 = document.createElement("span");
+	span0.setAttribute("class", "fillercitystate");	
+	span0.appendChild(document.createTextNode(incident.CityOrCounty + ", " + incident.State));
 	var span1 = document.createElement("span");
 	span1.setAttribute("class", "filleraddress");	span1.appendChild(document.createTextNode(incident.Address));
 	var span2 = document.createElement("span");
@@ -207,6 +287,8 @@ function generateLeftFillerCard(incident) {
 	a.appendChild(document.createTextNode("Source"));
 	span4.appendChild(a);
 
+	div.appendChild(span0);
+	div.appendChild(document.createElement("br"));
 	div.appendChild(span1);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span2);
@@ -214,7 +296,7 @@ function generateLeftFillerCard(incident) {
 	div.appendChild(span3);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span4);
-	spacerdiv.appendChild(div)
+	spacerdiv.appendChild(div);
 	li.appendChild(spacerdiv);
 
 	leftList.appendChild(li);
@@ -227,6 +309,9 @@ function generateRightIncidentCard(incident) {
 	spacerdiv.setAttribute("class", "rtextspacer");
 	var div = document.createElement("div");
 	div.setAttribute("class", "rlitext");
+	var span0 = document.createElement("span");
+	span0.setAttribute("class", "citystate");	
+	span0.appendChild(document.createTextNode(incident.CityOrCounty + ", " + incident.State));
 	var span1 = document.createElement("span");
 	span1.setAttribute("class", "address");	span1.appendChild(document.createTextNode(incident.Address));
 	var span2 = document.createElement("span");
@@ -241,6 +326,8 @@ function generateRightIncidentCard(incident) {
 	a.appendChild(document.createTextNode("Source"));	
 	span4.appendChild(a);
 
+	div.appendChild(span0);
+	div.appendChild(document.createElement("br"));
 	div.appendChild(span1);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span2);
@@ -248,7 +335,7 @@ function generateRightIncidentCard(incident) {
 	div.appendChild(span3);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span4);
-	spacerdiv.appendChild(div)
+	spacerdiv.appendChild(div);
 	li.appendChild(spacerdiv);
 
 	rightList.appendChild(li);
@@ -260,12 +347,18 @@ function generateRightFillerCard(incident) {
 	spacerdiv.setAttribute("class", "rfillertextspacer");
 	var div = document.createElement("div");
 	div.setAttribute("class", "rfillerlitext");
+	var span0 = document.createElement("span");
+	span0.setAttribute("class", "fillercitystate");	
+	span0.appendChild(document.createTextNode(incident.CityOrCounty + ", " + incident.State));
 	var span1 = document.createElement("span");
-	span1.setAttribute("class", "filleraddress");	span1.appendChild(document.createTextNode(incident.Address));
+	span1.setAttribute("class", "filleraddress");	
+	span1.appendChild(document.createTextNode(incident.Address));
 	var span2 = document.createElement("span");
-	span2.setAttribute("class", "fillerinjuries");	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
+	span2.setAttribute("class", "fillerinjuries");	
+	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
 	var span3 = document.createElement("span");
-	span3.setAttribute("class", "fillerdeaths");	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
+	span3.setAttribute("class", "fillerdeaths");	
+	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
 	var span4 = document.createElement("span");
 	span4.setAttribute("class", "fillersource");
 	var a = document.createElement("a");
@@ -274,6 +367,8 @@ function generateRightFillerCard(incident) {
 	a.appendChild(document.createTextNode("Source"));	
 	span4.appendChild(a);
 
+	div.appendChild(span0);
+	div.appendChild(document.createElement("br"));
 	div.appendChild(span1);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span2);
@@ -281,120 +376,11 @@ function generateRightFillerCard(incident) {
 	div.appendChild(span3);
 	div.appendChild(document.createElement("br"));
 	div.appendChild(span4);
-	spacerdiv.appendChild(div)
+	spacerdiv.appendChild(div);
 	li.appendChild(spacerdiv);
 
 	rightList.appendChild(li);
 }
-
-/*function generateIncidentCard(incident) {
-	if (flipFlop == false) {
-		var li = document.createElement("li");
-		li.setAttribute("class", "fullli");
-		var spacerdiv = document.createElement("div");
-		spacerdiv.setAttribute("class", "ltextspacer");
-		var div = document.createElement("div");
-		div.setAttribute("class", "llitext");
-		var span1 = document.createElement("span");
-		span1.setAttribute("class", "address");	span1.appendChild(document.createTextNode(incident.Address));
-		var span2 = document.createElement("span");
-		span2.setAttribute("class", "injuries");	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
-		var span3 = document.createElement("span");
-		span3.setAttribute("class", "deaths");	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
-		var span4 = document.createElement("span");
-		span4.setAttribute("class", "source");
-		var a = document.createElement("a");
-		a.setAttribute("href", incident.Source);
-		a.setAttribute("target", "_blank");
-		a.appendChild(document.createTextNode("Source"));
-		span4.appendChild(a);
-
-		div.appendChild(span1);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span2);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span3);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span4);
-		spacerdiv.appendChild(div)
-		li.appendChild(spacerdiv);
-
-		leftList.appendChild(li);
-		
-		var emptyli = document.createElement("li");
-		emptyli.setAttribute("class", "remptyli");
-		rightList.appendChild(emptyli);
-		
-		flipFlop = true;
-		tempLeftCount++;
-	}
-	else {
-		var li = document.createElement("li");
-		li.setAttribute("class", "fullli");
-		var spacerdiv = document.createElement("div");
-		spacerdiv.setAttribute("class", "rtextspacer");
-		var div = document.createElement("div");
-		div.setAttribute("class", "rlitext");
-		var span1 = document.createElement("span");
-		span1.setAttribute("class", "address");	span1.appendChild(document.createTextNode(incident.Address));
-		var span2 = document.createElement("span");
-		span2.setAttribute("class", "injuries");	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
-		var span3 = document.createElement("span");
-		span3.setAttribute("class", "deaths");	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
-		var span4 = document.createElement("span");
-		span4.setAttribute("class", "source");
-		var a = document.createElement("a");
-		a.setAttribute("href", incident.Source);
-		a.setAttribute("target", "_blank");
-		a.appendChild(document.createTextNode("Source"));	span4.appendChild(a);
-
-		div.appendChild(span1);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span2);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span3);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span4);
-		spacerdiv.appendChild(div)
-		li.appendChild(spacerdiv);
-
-		rightList.appendChild(li);
-		
-		var fillerli = document.createElement("li");
-		fillerli.setAttribute("class", "fillerli");
-		var spacerdiv = document.createElement("div");
-		spacerdiv.setAttribute("class", "rfillertextspacer");
-		var div = document.createElement("div");
-		div.setAttribute("class", "rfillerlitext");
-		var span1 = document.createElement("span");
-		span1.setAttribute("class", "filleraddress");	span1.appendChild(document.createTextNode(incident.Address));
-		var span2 = document.createElement("span");
-		span2.setAttribute("class", "fillerinjuries");	span2.appendChild(document.createTextNode(incident.Injured + " Injured"));
-		var span3 = document.createElement("span");
-		span3.setAttribute("class", "fillerdeaths");	span3.appendChild(document.createTextNode(incident.Killed + " Killed"));
-		var span4 = document.createElement("span");
-		span4.setAttribute("class", "fillersource");
-		var a = document.createElement("a");
-		a.setAttribute("href", incident.Source);
-		a.setAttribute("target", "_blank");
-		a.appendChild(document.createTextNode("Source"));	span4.appendChild(a);
-
-		div.appendChild(span1);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span2);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span3);
-		div.appendChild(document.createElement("br"));
-		div.appendChild(span4);
-		spacerdiv.appendChild(div)
-		li.appendChild(spacerdiv);
-		
-		emptyli.setAttribute("class", "lemptyli");
-		leftList.appendChild(emptyli);
-		flipFlop = false;
-		tempRightCount++;
-	}
-}*/
 /*Ripped straight from https://github.com/ngokevin/kframe/tree/master/components/randomizer/*/
 /*I can't pretend I know anything about 3D rotation math. Quaternions scare me.*/
 function generateBullet() {
@@ -426,16 +412,3 @@ function generateBullet() {
 	bulletsPlace.appendChild(entity);
 }
 /*==============================*/
-
-
-
-
-
-
-
-
-
-
-
-
-/**/
