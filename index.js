@@ -13,8 +13,8 @@ var cheerio = require('cheerio');
 var app = express(); 
 var http = require('http').Server(app); /*Sets Up the Server*/
 var io = require('socket.io')(http); /*Socket IO Instance*/
-http.listen(6010, function () { /*Start Listening on perscribed port and log it*/
-	console.log('app listening on port 6010.');
+http.listen(3000, function () { /*Start Listening on perscribed port and log it*/
+	console.log('app listening on port 3000.');
 });
 app.get('/', function (req, res) {
 	res.sendFile(__dirname + '/public/index.html');
